@@ -1,0 +1,23 @@
+{
+  "name": "CricVega – Live Cricket Score",
+  "short_name": "CricVega",
+  "description": "Live cricket scores, ball-by-ball commentary, scorecards, schedule and news.",
+  "start_url": "./",
+  "scope": "./",
+  "display": "standalone",
+  "background_color": "#0a2a57",
+  "theme_color": "#0a2a57",
+  "orientation": "portrait-primary",
+  "lang": "en",
+  "categories": ["sports", "news"],
+  "icons": [
+    {"src": "icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "any"},
+    {"src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "any"},
+    {"src": "icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable"}
+  ],
+  "shortcuts": [
+    {"name": "Live Scores", "url": "live-scores"},
+    {"name": "Schedule", "url": "schedule"},
+    {"name": "News", "url": "news"}
+  ]
+}

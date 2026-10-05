@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>Net Run Rate (NRR) Explained: How Points Tables Are Decided | CricVega Blog</title>
+<meta name="description" content="Two teams, equal points — who qualifies? Understanding the maths behind NRR with a simple step-by-step example.">
+<meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1">
+<link rel="canonical" href="https://cricvega.github.io/blog/net-run-rate">
+<meta name="cp-base" content="/"><meta name="cp-site" content="https://cricvega.github.io/">
+<meta name="theme-color" content="#0a2a57">
+<meta name="color-scheme" content="light dark">
+<meta name="application-name" content="CricVega"><meta name="apple-mobile-web-app-title" content="CricVega">
+<meta name="apple-mobile-web-app-capable" content="yes"><meta name="mobile-web-app-capable" content="yes">
+<meta property="og:type" content="website"><meta property="og:site_name" content="CricVega">
+<meta property="og:title" content="Net Run Rate (NRR) Explained: How Points Tables Are Decided | CricVega Blog"><meta property="og:description" content="Two teams, equal points — who qualifies? Understanding the maths behind NRR with a simple step-by-step example.">
+<meta property="og:url" content="https://cricvega.github.io/blog/net-run-rate"><meta property="og:image" content="https://cricvega.github.io/og-image.png">
+<meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:locale" content="en_IN"><meta property="og:locale:alternate" content="hi_IN">
+<meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="Net Run Rate (NRR) Explained: How Points Tables Are Decided | CricVega Blog"><meta name="twitter:description" content="Two teams, equal points — who qualifies? Understanding the maths behind NRR with a simple step-by-step example."><meta name="twitter:image" content="https://cricvega.github.io/og-image.png">
+<link rel="icon" href="/favicon.svg" type="image/svg+xml"><link rel="icon" href="/icon-192.png" sizes="192x192" type="image/png">
+<link rel="apple-touch-icon" href="/apple-touch-icon.png"><link rel="manifest" href="/manifest.webmanifest">
+<link rel="preconnect" href="https://site.web.api.espn.com" crossorigin><link rel="dns-prefetch" href="https://a.espncdn.com">
+<link rel="stylesheet" href="/app.css?v=be6a1871">
+<script type="application/ld+json">[{"@context":"https://schema.org","@graph":[{"@type":"Organization","@id":"https://cricvega.github.io/#org","name":"CricVega","url":"https://cricvega.github.io/","logo":"https://cricvega.github.io/icon-512.png"},{"@type":"WebSite","@id":"https://cricvega.github.io/#website","url":"https://cricvega.github.io/","name":"CricVega","inLanguage":["en","hi"],"publisher":{"@id":"https://cricvega.github.io/#org"}},{"@type":"BreadcrumbList","itemListElement":[{"@type":"ListItem","position":1,"name":"Home","item":"https://cricvega.github.io/"},{"@type":"ListItem","position":2,"name":"Net Run Rate (NRR) Explained: How Points Tables Are Decided","item":"https://cricvega.github.io/blog/net-run-rate"}]}]}]</script>
+<script type="application/json" id="cp-heads">{"home":["Live Cricket Score Today – Ball by Ball Commentary, Scorecard & Schedule | CricVega","Fastest live cricket score for every match today: ball-by-ball commentary, full scorecards, fixtures, results, points tables and cricket news. India, IPL, T20, ODI & Test — in Hindi and English."],"live-scores":["Live Cricket Scores – All Matches Today, Ball by Ball Updates | CricVega","All live cricket matches today with auto-updating scores, run rates, recent overs and ball-by-ball commentary. International, domestic, league and women's cricket."],"schedule":["Cricket Schedule 2026 – Upcoming Matches, Fixtures & Timings (IST) | CricVega","Upcoming cricket match schedule with dates, venues and start times: international series, T20 leagues, domestic and women's cricket fixtures for the next 7 days."],"results":["Cricket Results – Latest Match Results & Scorecards | CricVega","Latest cricket results with final scores, winning margins and full scorecards for international, league, domestic and women's matches from the past week."],"news":["Cricket News Today – Latest Headlines & Updates | CricVega","Latest cricket news, match reports, team updates and headlines from ESPNcricinfo and BBC Sport, updated through the day."],"series":["Cricket Series 2026 – Ongoing & Upcoming Tours, Tournaments & Leagues | CricVega","All current cricket series, tours, tournaments and T20 leagues with fixtures, results, live scores and points tables."],"teams":["Cricket Teams – India, Australia, England & All International Teams | CricVega","International cricket teams with live scores, upcoming fixtures, recent results and news: India, Australia, England, Pakistan, South Africa, New Zealand and more."]}</script>
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"BlogPosting","headline":"Net Run Rate (NRR) Explained: How Points Tables Are Decided","description":"Two teams, equal points — who qualifies? Understanding the maths behind NRR with a simple step-by-step example.","datePublished":"2026-10-03","dateModified":"2026-10-03","author":{"@type":"Organization","name":"CricVega Editorial"},"publisher":{"@type":"Organization","name":"CricVega","logo":{"@type":"ImageObject","url":"https://cricvega.github.io/icon-512.png"}},"mainEntityOfPage":"https://cricvega.github.io/blog/net-run-rate","inLanguage":"en"}</script>
+</head>
+<body>
+<script>try{if(localStorage.getItem('cp_theme')==='dark'||(!localStorage.getItem('cp_theme')&&matchMedia('(prefers-color-scheme: dark)').matches))document.body.classList.add('dark')}catch(e){}</script>
+<a class="sr-only" href="#app">Skip to content</a>
+<header class="hdr">
+ <div class="wrap hdr-top">
+  <a class="logo" href="/" aria-label="CricVega home"><span class="ball"></span><span>Cric<b>Pulse</b></span></a>
+  <div class="search" role="search"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg><input id="q" type="search" autocomplete="off" placeholder="Search matches, teams, series, news…" aria-label="Search"><div id="sres" class="sres"></div></div>
+  <select id="lang" class="hbtn" aria-label="Language"><option value="en">English</option></select>
+  <button id="theme" class="hbtn" type="button" aria-label="Dark mode">🌙</button>
+  <button id="install" class="hbtn install" type="button" aria-label="Install app">📲</button>
+ </div>
+ <nav class="nav" aria-label="Main"><div class="wrap"><a href="/" data-nav="home" data-k="home">Home</a><a href="/live-scores" data-nav="live-scores" data-k="live">Live Scores</a><a href="/schedule" data-nav="schedule" data-k="schedule">Schedule</a><a href="/results" data-nav="results" data-k="results">Results</a><a href="/series" data-nav="series" data-k="series">Series</a><a href="/teams" data-nav="teams" data-k="teams">Teams</a><a href="/news" data-nav="news" data-k="news">News</a><a href="/blog" data-nav="blog" data-k="blog" class="on">Blog</a></div></nav>
+</header>
+<div class="strip-w"><div class="wrap"><div id="strip" class="strip" aria-label="Today's matches"><div class="strip-empty">Loading live scores…</div></div></div></div>
+<div class="wrap layout">
+ <main id="app" data-static="1" class="card prose" style="padding:22px"><article>
+<h1 style="font-size:24px;line-height:1.3">Net Run Rate (NRR) Explained: How Points Tables Are Decided</h1>
+<p class="muted" style="margin:4px 0 16px">📅 2026-10-03 • CricVega Blog • 4 min read • <a href="/blog">All articles</a></p>
+
+<p>Group stages often end with two or more teams level on points. The tie-breaker used almost everywhere — World Cups, the IPL, bilateral series — is <strong>Net Run Rate (NRR)</strong>.</p>
+<h2>The formula</h2>
+<p style="padding:12px;border-radius:10px;background:rgba(127,127,127,.12);font-family:monospace">NRR = (total runs scored ÷ total overs faced) − (total runs conceded ÷ total overs bowled)</p>
+<p>In words: take a team's average runs per over across the whole tournament, and subtract the average runs opponents scored per over against them. Positive NRR means you score faster than you concede; negative means the opposite.</p>
+<h2>A worked example</h2>
+<p>Suppose Team India plays two matches in a group:</p>
+<ul>
+<li>Match 1: scores 180 in 20 overs, concedes 160 in 20 overs.</li>
+<li>Match 2: scores 150 in 20 overs, concedes 155 in 19 overs (chased by the opponent in 19).</li>
+</ul>
+<p>Runs scored per over = (180 + 150) ÷ (20 + 20) = 330 ÷ 40 = <strong>8.25</strong>.<br>
+Runs conceded per over = (160 + 155) ÷ (20 + 19) = 315 ÷ 39 ≈ <strong>8.077</strong>.<br>
+NRR = 8.25 − 8.077 ≈ <strong>+0.173</strong>.</p>
+<h2>The quirks that decide tournaments</h2>
+<ul>
+<li><strong>All-out rule:</strong> if a team is bowled out, the full quota of overs is used in the calculation even if they lost wickets early — so collapsing cheaply hurts NRR badly.</li>
+<li><strong>Chases count actual overs:</strong> if the opponent chases your total in 16 overs, your conceded rate uses 16 overs, which damages your NRR. Big wins matter; small losses hurt less.</li>
+<li><strong>Abandoned matches</strong> (no ball bowled) are usually excluded, but a match that ends after even one ball counts.</li>
+</ul>
+<h2>Why teams calculate it live</h2>
+<p>On the final day of a group stage, analysts sit with calculators because a win by a certain margin is required to overtake a rival's NRR. That is why you sometimes see captains chasing maximum bonus wins instead of coasting — NRR makes every run matter, even in matches whose result seems decided.</p>
+<p><strong>हिंदी सार:</strong> एनआरआर यानी औसत रन-गति का अंतर — जो टूर्नामेंट में बराबर अंक होने पर टीम का भाग्य तय करता है।</p>
+<p style="margin-top:18px;padding:12px;border-radius:10px;background:rgba(127,127,127,.12);font-size:13px">🏏 <em>This original article was written by the CricVega team for educational purposes. Live scores and match data on this site come from publicly available third-party feeds — see our <a href="/disclaimer">Disclaimer</a>.</em></p>
+</article></main>
+ <aside id="side" aria-label="Sidebar"></aside>
+</div>
+
+<div class="wrap adwrap"><div class="adcard"><span class="adtag">Advertisement · विज्ञापन</span>
+<script async="async" data-cfasync="false" src="https://pl31634838.profitableratecpmnetwork.com/ade524042b139f9f1e9947147c3e9015/invoke.js"></script>
+<div id="container-ade524042b139f9f1e9947147c3e9015"></div>
+<a class="adlink" href="https://www.profitableratecpmnetwork.com/u5f7vysck7?key=e2f020702b4baafee4d2055ce47129b9" rel="sponsored noopener" target="_blank">Sponsored · Special Offer</a>
+</div></div>
+<footer class="ftr"><div class="wrap">
+ <div class="fgrid">
+  <div><a class="logo" href="/" style="color:#fff;margin-bottom:8px"><span class="ball"></span><span>Cric<b>Pulse</b></span></a><p data-k="footAbout">Fast live cricket scores, ball-by-ball commentary, full scorecards, schedules and news — in 6 languages.</p></div>
+  <div><h4 data-k="quick">Quick Links</h4><a href="/live-scores" data-k="live">Live Scores</a><a href="/schedule" data-k="schedule">Schedule</a><a href="/results" data-k="results">Results</a><a href="/series" data-k="series">Series</a><a href="/teams" data-k="teams">Teams</a><a href="/news" data-k="news">News</a></div>
+  <div><h4 data-k="info">Information</h4><a href="/about" data-full data-k="about">About</a><a href="/privacy-policy" data-full data-k="privacy">Privacy Policy</a><a href="/disclaimer" data-full data-k="disclaimer">Disclaimer</a><a href="/contact" data-full data-k="contact">Contact</a><a href="/terms" data-full>Terms of Use</a><a href="/blog" data-full>Blog</a></div>
+  <div><h4>Top teams</h4><a href="/team/india">India</a><a href="/team/australia">Australia</a><a href="/team/england">England</a><a href="/team/pakistan">Pakistan</a><a href="/team/south-africa">South Africa</a><a href="/team/new-zealand">New Zealand</a></div>
+ </div>
+ <div class="copy"><span>© 2026 CricVega · Developed by <b>Pawan Verma</b> · PAWANGAMINGSTUDIO</span><span data-k="dataNote">Match data: ESPN / Cricinfo public feed. News: ESPNcricinfo &amp; BBC Sport. All trademarks belong to their owners.</span></div>
+</div></footer>
+<script src="/app.js?v=be6a1871" defer></script>
+<script src="https://pl31634839.profitableratecpmnetwork.com/aa/13/c0/aa13c0779fb4dee58d72b39805f66be8.js" defer></script>
+<script src="https://pl31634837.profitableratecpmnetwork.com/56/5a/cc/565acc07a7c7dddde976912db9dbd35b.js" defer></script>
+</body>
+</html>
