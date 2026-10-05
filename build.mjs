@@ -168,7 +168,7 @@ ${noindex ? '<meta name="robots" content="noindex">' : '<meta name="robots" cont
 <a class="sr-only" href="#app">Skip to content</a>
 <header class="hdr">
  <div class="wrap hdr-top">
-  <a class="logo" href="${BASE}" aria-label="${BRAND} home"><span class="ball"></span><span>Cric<b>Pulse</b></span></a>
+  <a class="logo" href="${BASE}" aria-label="${BRAND} home"><span class="ball"></span><span>Cric<b>Vega</b></span></a>
   <div class="search" role="search"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="m20 20-3.5-3.5"/></svg><input id="q" type="search" autocomplete="off" placeholder="Search matches, teams, series, news…" aria-label="Search"><div id="sres" class="sres"></div></div>
   <select id="lang" class="hbtn" aria-label="Language"><option value="en">English</option></select>
   <button id="theme" class="hbtn" type="button" aria-label="Dark mode">🌙</button>
@@ -185,7 +185,7 @@ ${seo ? `<div class="wrap seo" id="seo"><section class="card"><div class="card-b
 ${AD_SLOT}
 <footer class="ftr"><div class="wrap">
  <div class="fgrid">
-  <div><a class="logo" href="${BASE}" style="color:#fff;margin-bottom:8px"><span class="ball"></span><span>Cric<b>Pulse</b></span></a><p data-k="footAbout">Fast live cricket scores, ball-by-ball commentary, full scorecards, schedules and news — in 6 languages.</p></div>
+  <div><a class="logo" href="${BASE}" style="color:#fff;margin-bottom:8px"><span class="ball"></span><span>Cric<b>Vega</b></span></a><p data-k="footAbout">Fast live cricket scores, ball-by-ball commentary, full scorecards, schedules and news — in 6 languages.</p></div>
   <div><h4 data-k="quick">Quick Links</h4>${NAV.slice(1).map(([k, p, l]) => `<a href="${BASE}${p}" data-k="${NAVK[k]}">${l}</a>`).join('')}</div>
   <div><h4 data-k="info">Information</h4><a href="${BASE}about" data-full data-k="about">About</a><a href="${BASE}privacy-policy" data-full data-k="privacy">Privacy Policy</a><a href="${BASE}disclaimer" data-full data-k="disclaimer">Disclaimer</a><a href="${BASE}contact" data-full data-k="contact">Contact</a><a href="${BASE}terms" data-full>Terms of Use</a><a href="${BASE}blog" data-full>Blog</a></div>
   <div><h4>Top teams</h4>${['India', 'Australia', 'England', 'Pakistan', 'South Africa', 'New Zealand'].map(n => `<a href="${BASE}team/${slug(n)}">${n}</a>`).join('')}</div>
@@ -365,6 +365,6 @@ function seriesPage(lid, name, list) {
 
   // service worker: bump cache version on every build
   const swp = path.join(ROOT, 'sw.js');
-  if (fs.existsSync(swp)) { const sw = fs.readFileSync(swp, 'utf8').replace(/const V='[^']*'/, `const V='cp-${ver}'`); write('sw.js', sw); }
+  if (fs.existsSync(swp)) { const sw = fs.readFileSync(swp, 'utf8').replace(/const V='[^']*'/, `const V='cv-${ver}'`); write('sw.js', sw); }
   console.log('built', sitemap.size, 'urls ->', OUT, 'base', BASE, 'site', SITE);
 })();
