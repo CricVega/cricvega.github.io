@@ -126,13 +126,8 @@ const INFO = {
 const NAV = [['home', '', 'Home'], ['live-scores', 'live-scores', 'Live Scores'], ['schedule', 'schedule', 'Schedule'], ['results', 'results', 'Results'], ['series', 'series', 'Series'], ['teams', 'teams', 'Teams'], ['news', 'news', 'News'], ['blog', 'blog', 'Blog']];
 const NAVK = { 'home': 'home', 'live-scores': 'live', 'schedule': 'schedule', 'results': 'results', 'series': 'series', 'teams': 'teams', 'news': 'news', 'blog': 'blog' };
 /* ---------- ad monetization (publisher zones) ---------- */
-const AD_SLOT = `<div class="wrap adwrap"><div class="adcard"><span class="adtag">Advertisement · विज्ञापन</span>
-<script async="async" data-cfasync="false" src="https://pl31634838.profitableratecpmnetwork.com/ade524042b139f9f1e9947147c3e9015/invoke.js"></script>
-<div id="container-ade524042b139f9f1e9947147c3e9015"></div>
-<a class="adlink" href="https://www.profitableratecpmnetwork.com/u5f7vysck7?key=e2f020702b4baafee4d2055ce47129b9" rel="sponsored noopener" target="_blank">Sponsored · Special Offer</a>
-</div></div>`;
-const AD_POP_SCRIPTS = `<script src="https://pl31634839.profitableratecpmnetwork.com/aa/13/c0/aa13c0779fb4dee58d72b39805f66be8.js" defer></script>
-<script src="https://pl31634837.profitableratecpmnetwork.com/56/5a/cc/565acc07a7c7dddde976912db9dbd35b.js" defer></script>`;
+const AD_SLOT = ``;
+const AD_POP_SCRIPTS = ``;
 const ORG = { '@type': 'Organization', '@id': U() + '#org', name: BRAND, url: U(), logo: U('icon-512.png') };
 function page({ rel, title, desc, canon, main, seo, jsonld = [], noindex = false, isStatic = false, active = '', ogType = 'website' }) {
   const canonical = canon || U(rel.replace(/(^|\/)index\.html$/, '').replace(/\.html$/, ''));
@@ -350,6 +345,7 @@ function seriesPage(lid, name, list) {
   }
   sitemap.set(U('terms'), { lastmod: today, pri: '0.3', freq: 'monthly' });
   write('sitemap.xml', `<?xml version="1.0" encoding="UTF-8"?>\n<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">\n${[...sitemap.entries()].map(([u, o]) => `<url><loc>${esc(u)}</loc><lastmod>${o.lastmod}</lastmod><changefreq>${o.freq}</changefreq><priority>${o.pri}</priority></url>`).join('\n')}\n</urlset>\n`);
+  write('f3a9c1d8e6b24a7095d1.txt', 'f3a9c1d8e6b24a7095d1');
   write('robots.txt', `User-agent: *\nAllow: /\n\nSitemap: ${U('sitemap.xml')}\n`);
   /* ---------- IndexNow: search engines ko turant auto-notify ---------- */
   try {
