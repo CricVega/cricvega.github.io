@@ -139,7 +139,7 @@ function page({ rel, title, desc, canon, main, seo, jsonld = [], noindex = false
 <title>${esc(title)}</title>
 <meta name="description" content="${esc(desc)}">
 ${noindex ? '<meta name="robots" content="noindex">' : '<meta name="robots" content="index,follow,max-image-preview:large,max-snippet:-1">'}
-<link rel="canonical" href="${esc(canonical)}">
+<link rel="canonical" href="${esc(canonical)}"><link rel="alternate" type="application/rss+xml" title="CricVega" href="${BASE}feed.xml">
 <meta name="cp-base" content="${BASE}"><meta name="cp-site" content="${SITE}">
 <meta name="theme-color" content="#0a2a57">
 <meta name="color-scheme" content="light dark">
@@ -335,6 +335,22 @@ function seriesPage(lid, name, list) {
     const keep = new Set([...live, ...rec, ...up].map(m => m.rel.split('/').pop() + '.html'));
     const d = path.join(OUT, 'match'); if (fs.existsSync(d)) for (const f of fs.readdirSync(d)) { if (f.endsWith('.html') && !keep.has(f)) fs.unlinkSync(path.join(d, f)); }
     const ds = path.join(OUT, 'series'); if (fs.existsSync(ds)) for (const f of fs.readdirSync(ds)) { if (f.endsWith('.html') && !seriesKept.has(f)) fs.unlinkSync(path.join(ds, f)); }
+  }
+  // --- Google-discovery boost (100% legal, tested): README backlinks + RSS feed ---
+  if (DYN && HEALTHY) {
+    const md = ['# CricVega – Live Cricket Score', '',
+      'Developed by **Pawan Verma · PAWANGAMINGSTUDIO**', '',
+      'Website: ' + U() + ' — free live cricket scores, ball-by-ball commentary, scorecards, schedules & news. No login, no app.', '',
+      '## 🔴 Live & upcoming matches (auto-updated)', ''];
+    for (const m of [...live, ...up].slice(0, 40)) md.push('- [' + m.t1.name + ' vs ' + m.t2.name + (m.round ? ', ' + m.round : '') + (m.live ? ' — LIVE' : ' — Preview') + '](' + U(m.rel) + ')');
+    md.push('', '## Recent results', '');
+    for (const m of rec.slice(0, 20)) md.push('- [' + m.t1.name + ' vs ' + m.t2.name + (m.round ? ', ' + m.round : '') + '](' + U(m.rel) + ')');
+    md.push('', '## Series', '');
+    for (const [lid, name] of [...new Map(matches.map(m => [m.league, m.series])).entries()].slice(0, 25)) md.push('- [' + name + '](' + U('series/' + lid + '-' + slug(name)) + ')');
+    write('README.md', md.join('\n') + '\n');
+    let rss = '<?xml version="1.0" encoding="UTF-8"?>\n<rss version="2.0"><channel><title>CricVega – Live Cricket Score</title><link>' + U() + '</link><description>Fast live cricket scores, ball-by-ball commentary, scorecards &amp; schedules.</description><lastBuildDate>' + new Date().toUTCString() + '</lastBuildDate>';
+    for (const m of [...live, ...up, ...rec].slice(0, 30)) rss += '<item><title>' + esc(m.t1.name + ' vs ' + m.t2.name + (m.round ? ', ' + m.round : '')) + '</title><link>' + U(m.rel) + '</link><guid isPermaLink="true">' + U(m.rel) + '</guid><pubDate>' + new Date(m.start).toUTCString() + '</pubDate></item>';
+    write('feed.xml', rss + '</channel></rss>\n');
   }
   // sitemap includes every prerendered page on disk
   for (const dir of ['match', 'series', 'team', 'blog']) {
