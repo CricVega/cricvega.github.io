@@ -60,19 +60,13 @@ jab chaaho turant naye matches generate karo (bade tournament ke din use karna).
 - Build kabhi bhi blog/, terms.html, app.js, sw.js ko overwrite **nahi** karta —
   yeh files manually maintain hoti hain.
 
-## 💵 ADS (Monetag/ProfitableRateCPM network) — kaise lage hain
-- **On-page ad unit** (invoke.js + container): har page par content ke neeche "Advertisement" card mein
-- **SmartLink** (sponsored button): usi card mein "Sponsored · Special Offer" button
-- **2 popunder scripts**: page ke end mein `defer` ke saath (page speed nahi tootegi)
-- **Privacy Policy** mein ads ka disclosure joda gaya (compliance — problem na ho)
-- Ads `build.mjs` mein hardcoded hain → **auto-rebuild ke baad bhi hamesha rahenge**
-
-### ⚠️ Zaroori baatein (imandari se)
-1. **AdSense aur yeh network EK SAATH nahi** — dono mein se ek chuno. Agar kabhi AdSense
-   lena ho to pehle yeh popunder scripts hatana (README se pooch lena, main bata dunga).
-2. Popunder = user ke tap par naya tab khulta hai — isi se CPM kamai hoti hai.
-   India traffic par CPM thoda kam hota hai ($0.5–2), payout $5 se weekly.
-3. Agar kabhi ads band karne hon: build.mjs se AD_SLOT / AD_POP_SCRIPTS hata dena.
+## 💵 ADS — current status (5 Oct 2026)
+- Purana CPM network (ProfitableRateCPM) **poori tarah hata diya gaya** — scripts, ad cards,
+  CSS styles, constants — sab kuch. Site ab 100% ad-free aur clean hai.
+- Wajah (imandari se): woh network internet par scammy/malware-flagged tha, withdrawal
+  reliable nahi tha, users ko scam pages par bhejta tha, aur Google trust girata tha.
+- **Akeli monetization = Google AdSense** (upar wala roadmap). Approval ke baad jo code
+  mile woh build mein cleanly add ho jayega — tab tak site ad-free rahegi.
 
 ---
 

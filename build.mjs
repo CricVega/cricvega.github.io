@@ -126,7 +126,6 @@ const INFO = {
 const NAV = [['home', '', 'Home'], ['live-scores', 'live-scores', 'Live Scores'], ['schedule', 'schedule', 'Schedule'], ['results', 'results', 'Results'], ['series', 'series', 'Series'], ['teams', 'teams', 'Teams'], ['news', 'news', 'News'], ['blog', 'blog', 'Blog']];
 const NAVK = { 'home': 'home', 'live-scores': 'live', 'schedule': 'schedule', 'results': 'results', 'series': 'series', 'teams': 'teams', 'news': 'news', 'blog': 'blog' };
 /* ---------- ad monetization (publisher zones) ---------- */
-const AD_SLOT = ``;
 const AD_POP_SCRIPTS = ``;
 const ORG = { '@type': 'Organization', '@id': U() + '#org', name: BRAND, url: U(), logo: U('icon-512.png') };
 function page({ rel, title, desc, canon, main, seo, jsonld = [], noindex = false, isStatic = false, active = '', ogType = 'website' }) {
@@ -177,7 +176,6 @@ ${noindex ? '<meta name="robots" content="noindex">' : '<meta name="robots" cont
  <aside id="side" aria-label="Sidebar"></aside>
 </div>
 ${seo ? `<div class="wrap seo" id="seo"><section class="card"><div class="card-b">${seo}</div></section></div>` : ''}
-${AD_SLOT}
 <footer class="ftr"><div class="wrap">
  <div class="fgrid">
   <div><a class="logo" href="${BASE}" style="color:#fff;margin-bottom:8px"><span class="ball"></span><span>Cric<b>Vega</b></span></a><p data-k="footAbout">Fast live cricket scores, ball-by-ball commentary, full scorecards, schedules and news — in 6 languages.</p></div>

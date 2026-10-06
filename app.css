@@ -294,10 +294,3 @@ body.dark .note{background:#3a2a10;color:#ffd8a8;border-color:#6b4a14}
 @media(max-width:640px){.wrap.layout,.wrap{padding-left:10px;padding-right:10px}}
 
 /* ---------- ad slots ---------- */
-.adwrap{margin:16px auto}
-.adcard{position:relative;border:1px dashed rgba(127,127,127,.45);border-radius:12px;padding:18px 14px 14px;text-align:center;min-height:96px;background:rgba(127,127,127,.06)}
-.adtag{position:absolute;top:6px;left:10px;font-size:11px;opacity:.65;letter-spacing:.4px}
-.adlink{display:inline-block;margin-top:12px;padding:8px 16px;border-radius:10px;background:#0a2a57;color:#fff;font-size:13px;text-decoration:none}
-.adlink:hover{filter:brightness(1.15)}
-body.dark .adcard{background:rgba(255,255,255,.05)}
-body.dark .adlink{background:#1b4a8a}
