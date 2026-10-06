@@ -8,6 +8,49 @@ import crypto from 'node:crypto';
 
 const ROOT = path.dirname(new URL(import.meta.url).pathname);
 const DYN = !process.argv.includes('--no-dynamic');
+const OFFLINE = process.env.CRICVEGA_OFFLINE === '1';
+let CACHED = false;
+const APIS = ['https://site.web.api.espn.com', 'https://site.api.espn.com'];
+async function get2(p) { for (const a of APIS) { const j = await get(a + p); if (j) return j; } return null; }
+/* --- PERMANENT SAFETY: official public RSS fallback sources (100% legal syndication feeds) --- */
+function abbr(n) { const w = String(n).split(/ +/).filter(x => x.length > 2); return (w.length >= 2 ? w.map(x => x[0]).join('') : String(n)).toUpperCase().slice(0, 4); }
+function rssItems(xml) { const out = []; let i = 0; while ((i = xml.indexOf('<item>', i)) >= 0) { const e = xml.indexOf('</item>', i); if (e < 0) break; out.push(xml.slice(i, e)); i = e + 7; } return out; }
+function tag(bl, name) { const o = '<' + name + '>', c = '</' + name + '>'; const a = bl.indexOf(o); if (a < 0) return ''; const b = bl.indexOf(c, a); if (b < 0) return ''; return bl.slice(a + o.length, b).split('<![CDATA[').join('').split(']]>').join('').split('&amp;').join('&').trim(); }
+function scoreOf(x) { const ok = c => (c >= '0' && c <= '9') || c === '/'; let best = ''; for (let i = 0; i < x.length; i++) { if (ok(x[i])) { let j = i; while (j < x.length && (ok(x[j]) || ((x[j] === '&' || x[j] === ' ') && j + 1 < x.length && ok(x[j + 1])))) j++; const seg = x.slice(i, j); if (seg.indexOf('/') > 0 && seg.length > best.length) best = seg; i = j; } } return best; }
+function cleanTeam(x, sc) { let n = sc ? x.split(sc).join(' ') : x; n = n.split('&').join(' ').split('*').join(' '); return n.replace(/ +/g, ' ').trim() || 'TBC'; }
+async function cricinfoFallback() {
+  try {
+    const r = await fetch('https://static.cricinfo.com/rss/livescores.xml', { headers: { 'user-agent': 'Mozilla/5.0 CricVegaBuild' } });
+    if (!r.ok) return [];
+    const xml = await r.text(); const out = []; const seen = {};
+    for (const bl of rssItems(xml)) {
+      const t = tag(bl, 'title'); const guid = tag(bl, 'guid') || tag(bl, 'link');
+      const k = guid.indexOf('/match/'); if (k < 0) continue;
+      let d = k + 7, id = ''; while (d < guid.length && guid[d] >= '0' && guid[d] <= '9') { id += guid[d]; d++; }
+      if (!id || seen[id]) continue; seen[id] = 1;
+      const vi = t.split(/ +v +/); if (vi.length < 2) continue;
+      const mk = side => { let sc = scoreOf(side); let nm = cleanTeam(side, sc); const sc2 = scoreOf(nm); if (sc2) { nm = cleanTeam(nm, sc2); sc = (sc ? sc + ' & ' : '') + sc2; } return { id: '', name: nm, abr: abbr(nm), score: sc, winner: false, logo: '' }; };
+      const t1 = mk(vi[0]), t2 = mk(vi.slice(1).join(' v '));
+      const mm = { id, league: 'ci', series: 'Live Cricket', t1, t2, round: '', state: 'in', status: 'Live - backup feed', start: new Date().toISOString(), end: '', venue: '', type: '', intl: false, women: /women/i.test(t) };
+      mm.slug = slug(t1.name + ' vs ' + t2.name); mm.rel = 'match/' + id + '-' + mm.slug;
+      out.push(mm);
+    }
+    return out;
+  } catch (e) { return []; }
+}
+async function bbcNewsFallback() {
+  try {
+    const r = await fetch('https://feeds.bbci.co.uk/sport/cricket/rss.xml', { headers: { 'user-agent': 'Mozilla/5.0 CricVegaBuild' } });
+    if (!r.ok) return [];
+    const xml = await r.text(); const out = [];
+    for (const bl of rssItems(xml)) {
+      const title = tag(bl, 'title'); let link = tag(bl, 'link'); const date = tag(bl, 'pubDate');
+      if (title && link) out.push({ title, link, date });
+      if (out.length >= 12) break;
+    }
+    return out;
+  } catch (e) { return []; }
+}
 
 /* ---------- self-deploy: repo root par gira koi bhi *.zip khud extract karo ---------- */
 try {
@@ -154,8 +197,8 @@ ${noindex ? '<meta name="robots" content="noindex">' : '<meta name="robots" cont
 <link rel="apple-touch-icon" href="${BASE}apple-touch-icon.png"><link rel="manifest" href="${BASE}manifest.webmanifest">
 <link rel="preconnect" href="https://site.web.api.espn.com" crossorigin><link rel="dns-prefetch" href="https://a.espncdn.com">
 <link rel="stylesheet" href="${BASE}app.css?v=${ver}">
-<script type="application/ld+json">${JSON.stringify(ld).replace(/</g, '\\u003c')}</script>
-<script type="application/json" id="cp-heads">${JSON.stringify(HEADS).replace(/</g, '\\u003c')}</script>
+<script type="application/ld+json">${JSON.stringify(ld).replace(/</g, '\u003c')}</script>
+<script type="application/json" id="cp-heads">${JSON.stringify(HEADS).replace(/</g, '\u003c')}</script>
 </head>
 <body>
 <script>try{if(localStorage.getItem('cp_theme')==='dark'||(!localStorage.getItem('cp_theme')&&matchMedia('(prefers-color-scheme: dark)').matches))document.body.classList.add('dark')}catch(e){}</script>
@@ -264,18 +307,35 @@ function seriesPage(lid, name, list) {
 /* ---------- build ---------- */
 (async () => {
   let matches = [], news = [];
+  let srcMode = 'espn';
   const sitemap = new Map();   // url -> lastmod
   const today = new Date().toISOString().slice(0, 10);
-  if (DYN) {
+  if (DYN && !OFFLINE) {
     const days = [null]; for (let i = 1; i <= 14; i++) days.push(ymd(-i), ymd(i));
-    const panels = await Promise.all(days.map(d => get(API + '/apis/site/v2/sports/cricket/scorepanel' + (d ? '?dates=' + d : ''))));
+    const panels = await Promise.all(days.map(d => get2('/apis/site/v2/sports/cricket/scorepanel' + (d ? '?dates=' + d : ''))));
     const seen = {};
     panels.forEach(j => (j && j.scores || []).forEach(s => { const lg = (s.leagues || [])[0] || {}; (s.events || []).forEach(e => { const m = norm(e, lg); if (m && !seen[m.id]) { seen[m.id] = 1; matches.push(m); } }); }));
-    const nj = await get(API + '/apis/site/v2/sports/cricket/8676/news');
+    const nj = await get2('/apis/site/v2/sports/cricket/8676/news');
     news = ((nj && nj.articles) || []).map(a => ({ title: dec(a.headline || ''), link: (((a.links || {}).web || {}).href || '').replace(/^http:/, 'https:'), date: a.published })).filter(n => n.title && n.link).slice(0, 12);
     console.log('matches:', matches.length, 'news:', news.length);
+    if (process.env.CRICVEGA_FORCE_RSS === '1') { matches = []; console.log('SIMULATION: ESPN dead'); }
+    if (matches.length < 50) {
+      const fb = await cricinfoFallback();
+      if (fb.length >= 4) { matches = fb; srcMode = 'rss'; console.log('PERMANENT FALLBACK: Cricinfo official RSS —', fb.length, 'live matches'); }
+    }
+    if (!news.length) { const bn = await bbcNewsFallback(); if (bn.length) { news = bn; console.log('PERMANENT FALLBACK: BBC RSS news —', bn.length); } }
   }
-  const HEALTHY = matches.length >= 50;
+  // --- ULTIMATE SAFETY NET: source down ho to last-good snapshot se site chalti rahe ---
+  if (srcMode === 'espn' && matches.length < 50) {
+    try {
+      const cj = JSON.parse(fs.readFileSync(path.join(OUT, '.data-cache.json'), 'utf8'));
+      if ((cj.matches || []).length >= 50) { matches = cj.matches; news = cj.news || []; CACHED = true; console.log('SOURCE-DOWN SAFETY NET: CACHED MODE —', matches.length, 'matches from last good snapshot'); }
+    } catch (e) { console.log('cache note:', e.message); }
+  } else if (srcMode === 'espn') {
+    try { fs.writeFileSync(path.join(OUT, '.data-cache.json'), JSON.stringify({ matches, news })); } catch (e) {}
+  }
+  const FULL = srcMode === 'espn' && !CACHED;
+  const HEALTHY = matches.length >= (srcMode === 'rss' ? 4 : 50);
   let seriesKept = new Set(); if (!HEALTHY) console.log('WARN: data degraded — keeping existing pages');
   const pri = m => (/\bindia\b/i.test(m.t1.name + m.t2.name) ? 0 : 4) + (m.intl ? 0 : 2);
   const live = matches.filter(m => m.state === 'in').sort((a, b) => pri(a) - pri(b));
@@ -318,20 +378,21 @@ function seriesPage(lid, name, list) {
     // match pages
     const todo = [...live, ...rec, ...up];
     for (let i = 0; i < todo.length; i += 6) {
-      await Promise.all(todo.slice(i, i + 6).map(async m => { const sum = m.state === 'pre' && new Date(m.start) - Date.now() > 36 * 3600e3 ? null : await get(API + '/apis/site/v2/sports/cricket/' + m.league + '/summary?event=' + m.id); write(m.rel + '.html', matchPage(m, sum)); }));
+      await Promise.all(todo.slice(i, i + 6).map(async m => { const sum = FULL ? (m.state === 'pre' && new Date(m.start) - Date.now() > 36 * 3600e3 ? null : await get2('/apis/site/v2/sports/cricket/' + m.league + '/summary?event=' + m.id)) : null; write(m.rel + '.html', matchPage(m, sum)); }));
     }
     // series pages
     seriesKept = new Set();
+    if (!FULL) console.log('resilience mode: series pages kept as-is');
     const leagues = [...new Map(matches.map(m => [m.league, m.series])).entries()];
     for (const [lid, name] of leagues) {
-      const y = new Date().getFullYear(), js = await Promise.all([y - 1, y, y + 1].map(yr => get(API + '/apis/site/v2/sports/cricket/' + lid + '/scoreboard?dates=' + yr)));
+      const y = new Date().getFullYear(), js = FULL ? await Promise.all([y - 1, y, y + 1].map(yr => get2('/apis/site/v2/sports/cricket/' + lid + '/scoreboard?dates=' + yr))) : [];
       const s = {}, list = []; js.forEach(j => (j && j.events || []).forEach(e => { const m = norm(e, (j.leagues || [])[0] || { id: lid, name }); if (m && !s[m.id]) { s[m.id] = 1; list.push(m); } }));
       list.sort((a, b) => new Date(a.start) - new Date(b.start));
       if (list.length) { write('series/' + lid + '-' + slug(name) + '.html', seriesPage(lid, name, list)); seriesKept.add(lid + '-' + slug(name) + '.html'); }
     }
   }
   // sirf current window ke match pages rakho — stale pages hamesha delete (bulletproof)
-  if (DYN && HEALTHY) {
+  if (DYN && HEALTHY && FULL) {
     const keep = new Set([...live, ...rec, ...up].map(m => m.rel.split('/').pop() + '.html'));
     const d = path.join(OUT, 'match'); if (fs.existsSync(d)) for (const f of fs.readdirSync(d)) { if (f.endsWith('.html') && !keep.has(f)) fs.unlinkSync(path.join(d, f)); }
     const ds = path.join(OUT, 'series'); if (fs.existsSync(ds)) for (const f of fs.readdirSync(ds)) { if (f.endsWith('.html') && !seriesKept.has(f)) fs.unlinkSync(path.join(ds, f)); }
