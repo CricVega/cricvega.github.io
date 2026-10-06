@@ -1,7 +1,7 @@
 /* CricVega service worker: app shell cache + network-first pages + live-data resilience cache.
    Live data is always network-first; cached copies are ONLY used as a fallback when the
    upstream feed (ESPN / BBC / rss2json) is unreachable, so the site degrades gracefully. */
-const V='cv-5098d25e';
+const V='cv-335fec89';
 const LIVE='cv-live-v1';
 const LIVE_HOSTS=['site.api.espn.com','site.web.api.espn.com','a.espncdn.com','api.rss2json.com','feeds.bbci.co.uk','ichef.bbci.co.uk'];
 const SCOPE=self.registration.scope;
