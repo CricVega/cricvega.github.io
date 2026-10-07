@@ -49,12 +49,12 @@ Website: https://cricvega.github.io/ — free live cricket scores, ball-by-ball 
 
 ## Recent results
 
-- [Easterns vs Western Province, Pool B](https://cricvega.github.io/match/1551854-easterns-vs-western-province-pool-b)
-- [West Indies vs India, 1st T20I](https://cricvega.github.io/match/1529230-west-indies-vs-india-1st-t20i)
-- [Australia A vs India A, 1st unofficial ODI](https://cricvega.github.io/match/1535674-australia-a-vs-india-a-1st-unofficial-odi)
+- [Easterns vs Western Province, Pool B](https://cricvega.github.io/match/1551854-western-province-vs-easterns-pool-b)
+- [West Indies vs India, 1st T20I](https://cricvega.github.io/match/1529230-india-vs-west-indies-1st-t20i)
+- [Australia A vs India A, 1st unofficial ODI](https://cricvega.github.io/match/1535674-india-a-vs-australia-a-1st-unofficial-odi)
 - [Bahrain vs Bhutan, 5th Match](https://cricvega.github.io/match/1554537-bahrain-vs-bhutan-5th-match)
 - [Mongolia vs Kuwait, 6th Match](https://cricvega.github.io/match/1554538-mongolia-vs-kuwait-6th-match)
-- [Bangladesh Women Under-19s vs Pakistan Women Under-19s, 4th Match](https://cricvega.github.io/match/1554710-bangladesh-women-under-19s-vs-pakistan-women-under-19s-4th-match)
+- [Bangladesh Women Under-19s vs Pakistan Women Under-19s, 4th Match](https://cricvega.github.io/match/1554710-pakistan-women-under-19s-vs-bangladesh-women-under-19s-4th-match)
 - [Thailand vs Qatar, 4th Match](https://cricvega.github.io/match/1554536-thailand-vs-qatar-4th-match)
 - [Queensland Women vs Bangladesh Women, Tour Match](https://cricvega.github.io/match/1557256-queensland-women-vs-bangladesh-women-tour-match)
 - [United Arab Emirates vs United States of America, 128th Match](https://cricvega.github.io/match/1554410-united-arab-emirates-vs-united-states-of-america-128th-match)

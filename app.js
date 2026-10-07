@@ -198,7 +198,7 @@ function normEvent(e, lg){
     const inns=(x.linescores||[]).filter(l=>l.isBatting&&(l.runs||l.wickets||+l.overs||l.isCurrent)).map(l=>({period:l.period,runs:l.runs||0,wkts:l.wickets||0,overs:l.overs,cur:!!l.isCurrent}));
     return {id:String(x.id||tm.id||''),name:dec(tm.displayName||tm.name||'TBC'),abr:dec(tm.abbreviation||''),logo:tm.logo||((tm.logos||[])[0]||{}).href||'',score:dec(x.score||''),winner:x.winner===true||x.winner==='true',inns,national:!!tm.isNational}; };
   const t1=team(comps[0]), t2=team(comps[1]);
-  const st=type.state||'pre', has=!!(t1.score||t2.score);
+  const stRaw=type.state||'', stDesc=String(type.description||type.detail||'').toLowerCase(); const st=stRaw||(/live|progress|inning|stump|rain|delay|toss|lunch|tea|drinks/.test(stDesc)?'in':/final|result|won|tied|abandon|cancelled|complete/.test(stDesc)?'post':'pre'), has=!!(t1.score||t2.score);
   let tab='upcoming';
   if(st==='post') tab='recent'; else if(st==='in') tab=(!has&&/^starts|^match yet|^scheduled/i.test(summary))?'upcoming':'live';
   const cls=c.class||{};

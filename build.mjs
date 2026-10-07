@@ -31,7 +31,7 @@ async function cricinfoFallback() {
       const vi = t.split(/ +v +/); if (vi.length < 2) continue;
       const mk = side => { let sc = scoreOf(side); let nm = cleanTeam(side, sc); const sc2 = scoreOf(nm); if (sc2) { nm = cleanTeam(nm, sc2); sc = (sc ? sc + ' & ' : '') + sc2; } return { id: '', name: nm, abr: abbr(nm), score: sc, winner: false, logo: '' }; };
       const t1 = mk(vi[0]), t2 = mk(vi.slice(1).join(' v '));
-      const mm = { id, league: 'ci', series: 'Live Cricket', t1, t2, round: '', state: 'in', status: 'Live - backup feed', start: new Date().toISOString(), end: '', venue: '', type: '', intl: false, women: /women/i.test(t) };
+      const mm = { id, league: '', series: 'Live Cricket', t1, t2, round: '', state: 'in', status: 'Live - backup feed', start: new Date().toISOString(), end: '', venue: '', type: '', intl: false, women: /women/i.test(t) };
       mm.slug = slug(t1.name + ' vs ' + t2.name); mm.rel = 'match/' + id + '-' + mm.slug;
       out.push(mm);
     }
@@ -83,6 +83,13 @@ if (fs.existsSync(cnameFile) && fs.readFileSync(cnameFile, 'utf8').trim()) {
   else { SITE = 'https://' + owner.toLowerCase() + '.github.io/' + repo + '/'; BASE = '/' + repo + '/'; }
 }
 const U = p => SITE + (p || '');
+/* --- URL STABILITY: pehli baar jo slug bana, wahi hamesha (Google-indexed URLs kabhi na tootein) --- */
+const IDREL = new Map();
+try { for (const f of fs.readdirSync(path.join(OUT, 'match'))) { const q = f.match(/^(\d+)-(.+)\.html$/); if (q) IDREL.set(q[1], 'match/' + q[1] + '-' + q[2]); } } catch (e) {}
+try { const cj0 = JSON.parse(fs.readFileSync(path.join(OUT, '.data-cache.json'), 'utf8')); for (const m of cj0.matches || []) if (m && m.rel) IDREL.set(String(m.id), m.rel); } catch (e) {}
+let ALIAS = {};
+try { ALIAS = JSON.parse(fs.readFileSync(path.join(OUT, '.url-aliases.json'), 'utf8')); } catch (e) {}
+for (const [aid, list] of Object.entries(ALIAS)) if (Array.isArray(list) && list[0]) IDREL.set(aid, list[0]);
 
 /* ---------- optional: bundle src/*.js -> app.js (dev only) ---------- */
 const SRC = path.join(ROOT, 'src');
@@ -244,9 +251,11 @@ function norm(e, lg) {
   const type = ((e.status || {}).type) || ((c.status || {}).type) || {};
   const tm = x => ({ id: String(x.id || (x.team || {}).id || ''), name: dec((x.team || {}).displayName || 'TBC'), abr: (x.team || {}).abbreviation || '', score: dec(x.score || ''), winner: x.winner === true || x.winner === 'true', logo: (x.team || {}).logo || (((x.team || {}).logos || [])[0] || {}).href || '' });
   const t1 = tm(comps[0]), t2 = tm(comps[1]), round = dec(c.description || '').replace(/,.*$/, '');
-  const st = type.state || 'pre';
+  const stRaw = type.state || '';
+  const stDesc = String(type.description || type.detail || '').toLowerCase();
+  const st = stRaw || (/live|progress|inning|stump|rain|delay|toss|lunch|tea|drinks/.test(stDesc) ? 'in' : /final|result|won|tied|abandon|cancelled|complete/.test(stDesc) ? 'post' : 'pre');
   const m = { id: String(e.id), league: String(lg.id || ''), series: dec(lg.name || ''), t1, t2, round, state: st, status: dec((c.status || {}).summary || (e.status || {}).summary || ''), start: e.date || c.date, end: e.endDate || c.endDate, venue: dec(((c.venue || {}).fullName) || ''), type: dec(((c.class || {}).eventType) || ''), intl: String(((c.class || {}).internationalClassId) || '0') !== '0' };
-  m.slug = slug(t1.name + ' vs ' + t2.name + ' ' + round); m.rel = 'match/' + m.id + '-' + m.slug;
+  m.slug = slug(t1.name + ' vs ' + t2.name + ' ' + round); m.rel = 'match/' + m.id + '-' + m.slug; if (IDREL.has(m.id)) { m.rel = IDREL.get(m.id); m.slug = m.rel.split('/').pop().replace(/^\d+-/, ''); }
   return m;
 }
 const rowHTML = m => `<a class="mrow" href="${BASE}${m.rel}"><div class="mh"><span>${esc([m.round, m.series].filter(Boolean).join(' • '))}</span></div>
@@ -317,6 +326,7 @@ function seriesPage(lid, name, list) {
     panels.forEach(j => (j && j.scores || []).forEach(s => { const lg = (s.leagues || [])[0] || {}; (s.events || []).forEach(e => { const m = norm(e, lg); if (m && !seen[m.id]) { seen[m.id] = 1; matches.push(m); } }); }));
     const nj = await get2('/apis/site/v2/sports/cricket/8676/news');
     news = ((nj && nj.articles) || []).map(a => ({ title: dec(a.headline || ''), link: (((a.links || {}).web || {}).href || '').replace(/^http:/, 'https:'), date: a.published })).filter(n => n.title && n.link).slice(0, 12);
+    { const fb0 = await cricinfoFallback(); let added = 0; for (const m of fb0) { m.league = ''; if (IDREL.has(m.id)) { m.rel = IDREL.get(m.id); m.slug = m.rel.split('/').pop().replace(/^\d+-/, ''); } if (!seen[m.id]) { seen[m.id] = 1; matches.push(m); added++; } } if (added) console.log('RSS UNION:', added, 'extra live matches merged'); }
     console.log('matches:', matches.length, 'news:', news.length);
     if (process.env.CRICVEGA_FORCE_RSS === '1') { matches = []; console.log('SIMULATION: ESPN dead'); }
     if (matches.length < 50) {
@@ -378,7 +388,7 @@ function seriesPage(lid, name, list) {
     // match pages
     const todo = [...live, ...rec, ...up];
     for (let i = 0; i < todo.length; i += 6) {
-      await Promise.all(todo.slice(i, i + 6).map(async m => { const sum = FULL ? (m.state === 'pre' && new Date(m.start) - Date.now() > 36 * 3600e3 ? null : await get2('/apis/site/v2/sports/cricket/' + m.league + '/summary?event=' + m.id)) : null; write(m.rel + '.html', matchPage(m, sum)); }));
+      await Promise.all(todo.slice(i, i + 6).map(async m => { const sum = FULL ? (m.state === 'pre' && new Date(m.start) - Date.now() > 36 * 3600e3 ? null : await get2('/apis/site/v2/sports/cricket/' + m.league + '/summary?event=' + m.id)) : null; const html = matchPage(m, sum); write(m.rel + '.html', html); const al = ALIAS[m.id] || (ALIAS[m.id] = []); if (!al.includes(m.rel)) al.push(m.rel); for (const r of al) if (r !== m.rel) write(r + '.html', html); }));
     }
     // series pages
     seriesKept = new Set();
@@ -394,8 +404,8 @@ function seriesPage(lid, name, list) {
   // sirf current window ke match pages rakho — stale pages hamesha delete (bulletproof)
   if (DYN && HEALTHY && FULL) {
     const keep = new Set([...live, ...rec, ...up].map(m => m.rel.split('/').pop() + '.html'));
-    const d = path.join(OUT, 'match'); if (fs.existsSync(d)) for (const f of fs.readdirSync(d)) { if (f.endsWith('.html') && !keep.has(f)) fs.unlinkSync(path.join(d, f)); }
-    const ds = path.join(OUT, 'series'); if (fs.existsSync(ds)) for (const f of fs.readdirSync(ds)) { if (f.endsWith('.html') && !seriesKept.has(f)) fs.unlinkSync(path.join(ds, f)); }
+    const d = path.join(OUT, 'match'); if (fs.existsSync(d)) for (const f of fs.readdirSync(d)) { if (f.endsWith('.html') && !keep.has(f)) { try { if (Date.now() - fs.statSync(path.join(d, f)).mtimeMs > 7 * 864e5) fs.unlinkSync(path.join(d, f)); } catch (e) {} } }
+    const ds = path.join(OUT, 'series'); if (fs.existsSync(ds)) for (const f of fs.readdirSync(ds)) { if (f.endsWith('.html') && !seriesKept.has(f)) { try { if (Date.now() - fs.statSync(path.join(ds, f)).mtimeMs > 7 * 864e5) fs.unlinkSync(path.join(ds, f)); } catch (e) {} } }
   }
   // --- Google-discovery boost (100% legal, tested): README backlinks + RSS feed ---
   if (DYN && HEALTHY) {
@@ -434,6 +444,7 @@ function seriesPage(lid, name, list) {
   } catch (e) { console.log('IndexNow note:', e.message); }
 
 
+  try { fs.writeFileSync(path.join(OUT, '.url-aliases.json'), JSON.stringify(ALIAS)); } catch (e) {}
   // service worker: bump cache version on every build
   const swp = path.join(ROOT, 'sw.js');
   if (fs.existsSync(swp)) { const sw = fs.readFileSync(swp, 'utf8').replace(/const V='[^']*'/, `const V='cv-${ver}'`); write('sw.js', sw); }
