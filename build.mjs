@@ -90,6 +90,7 @@ try { const cj0 = JSON.parse(fs.readFileSync(path.join(OUT, '.data-cache.json'),
 let ALIAS = {};
 try { ALIAS = JSON.parse(fs.readFileSync(path.join(OUT, '.url-aliases.json'), 'utf8')); } catch (e) {}
 for (const [aid, list] of Object.entries(ALIAS)) if (Array.isArray(list) && list[0]) IDREL.set(aid, list[0]);
+try { const md0 = path.join(OUT, 'match'); if (fs.existsSync(md0)) for (const f0 of fs.readdirSync(md0)) { const mm0 = f0.match(/^(\d+)-.*\.html$/); if (mm0) { const l0 = ALIAS[mm0[1]] || (ALIAS[mm0[1]] = []); const r0 = 'match/' + f0.slice(0, -5); if (!l0.includes(r0)) l0.push(r0); } } } catch (e) {}
 
 /* ---------- optional: bundle src/*.js -> app.js (dev only) ---------- */
 const SRC = path.join(ROOT, 'src');
