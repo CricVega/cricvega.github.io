@@ -6,15 +6,14 @@ Website: https://cricvega.github.io/ — free live cricket scores, ball-by-ball 
 
 ## 🔴 Live & upcoming matches (auto-updated)
 
-- [Australia Under-19s vs India Under-19s, 2nd Youth Test — Preview](https://cricvega.github.io/match/1535685-australia-under-19s-vs-india-under-19s-2nd-youth-test)
+- [Zimbabwe Women vs West Indies Women, 3rd T20I — Preview](https://cricvega.github.io/match/1554980-zimbabwe-women-vs-west-indies-women-3rd-t20i)
 - [Victoria vs South Australia, 1st Match — Preview](https://cricvega.github.io/match/1544864-victoria-vs-south-australia-1st-match)
-- [Mah-e-Par Stars vs Hindukush Strikers, Final — Preview](https://cricvega.github.io/match/1551344-mah-e-par-stars-vs-hindukush-strikers-final)
 - [Hyderabad Kingsmen Academy vs Sui Northern Gas Pipelines Limited, 20th Match — Preview](https://cricvega.github.io/match/1553796-hyderabad-kingsmen-academy-vs-sui-northern-gas-pipelines-limited-20th-match)
 - [Ghani vs Pakistan Television, 17th Match — Preview](https://cricvega.github.io/match/1553793-ghani-vs-pakistan-television-17th-match)
 - [Khan Research Laboratories vs State Bank of Pakistan, 18th Match — Preview](https://cricvega.github.io/match/1553794-khan-research-laboratories-vs-state-bank-of-pakistan-18th-match)
 - [Markhor IT Solutions vs Oil & Gas Development Company Limited, 19th Match — Preview](https://cricvega.github.io/match/1553795-markhor-it-solutions-vs-oil-and-gas-development-company-limited-19th-match)
-- [Zimbabwe Women vs West Indies Women, 3rd T20I — Preview](https://cricvega.github.io/match/1554980-zimbabwe-women-vs-west-indies-women-3rd-t20i)
 - [South Western Districts vs Lions, Pool A — Preview](https://cricvega.github.io/match/1551857-south-western-districts-vs-lions-pool-a)
+- [United States of America vs Namibia, 129th Match — Preview](https://cricvega.github.io/match/1554411-united-states-of-america-vs-namibia-129th-match)
 - [Knights vs KwaZulu-Natal Inland, Pool B — Preview](https://cricvega.github.io/match/1551855-knights-vs-kwazulu-natal-inland-pool-b)
 - [Titans vs South Africa Emerging Players, Pool B — Preview](https://cricvega.github.io/match/1551856-titans-vs-south-africa-emerging-players-pool-b)
 - [New South Wales vs Tasmania, 2nd Match — Preview](https://cricvega.github.io/match/1544865-new-south-wales-vs-tasmania-2nd-match)
@@ -46,6 +45,7 @@ Website: https://cricvega.github.io/ — free live cricket scores, ball-by-ball 
 - [Pakistan vs Sri Lanka, 1st T20I — Preview](https://cricvega.github.io/match/1550708-pakistan-vs-sri-lanka-1st-t20i)
 - [Chattogram Division vs Barishal Division, 8th Match — Preview](https://cricvega.github.io/match/1555672-chattogram-division-vs-barishal-division-8th-match)
 - [Khulna Division vs Rajshahi Division, 7th Match — Preview](https://cricvega.github.io/match/1555671-khulna-division-vs-rajshahi-division-7th-match)
+- [Mymensingh Division vs Rangpur Division, 6th Match — Preview](https://cricvega.github.io/match/1555670-mymensingh-division-vs-rangpur-division-6th-match)
 
 ## Recent results
 
@@ -63,16 +63,17 @@ Website: https://cricvega.github.io/ — free live cricket scores, ball-by-ball 
 - [Kuwait vs Qatar, 3rd Match](https://cricvega.github.io/match/1554535-kuwait-vs-qatar-3rd-match)
 - [South Korea vs Indonesia, 4th T20I](https://cricvega.github.io/match/1555138-south-korea-vs-indonesia-4th-t20i)
 - [Bangladesh Women Under-19s vs Sri Lanka Women Under-19s, 3rd Match](https://cricvega.github.io/match/1554709-bangladesh-women-under-19s-vs-sri-lanka-women-under-19s-3rd-match)
+- [Australia Under-19s vs India Under-19s, 2nd Youth Test](https://cricvega.github.io/match/1535685-australia-under-19s-vs-india-under-19s-2nd-youth-test)
 - [Vancouver Anchors vs Toronto Sixers, Final](https://cricvega.github.io/match/1556702-vancouver-anchors-vs-toronto-sixers-final)
 - [Bhutan vs Myanmar, 1st Match](https://cricvega.github.io/match/1554533-bhutan-vs-myanmar-1st-match)
 - [Bahrain vs Thailand, 2nd Match](https://cricvega.github.io/match/1554534-bahrain-vs-thailand-2nd-match)
 - [Indonesia vs South Korea, 3rd T20I](https://cricvega.github.io/match/1555137-indonesia-vs-south-korea-3rd-t20i)
 - [Brampton Blitz vs Vancouver Anchors, 2nd Semi-Final](https://cricvega.github.io/match/1556701-brampton-blitz-vs-vancouver-anchors-2nd-semi-final)
-- [Toronto Sixers vs Mississauga Masters, 1st Semi-Final](https://cricvega.github.io/match/1556700-toronto-sixers-vs-mississauga-masters-1st-semi-final)
 
 ## Series
 
 - [Sheffield Shield](https://cricvega.github.io/series/8043-sheffield-shield)
+- [ICC Men's Cricket World Cup League 2](https://cricvega.github.io/series/19439-icc-men-s-cricket-world-cup-league-2)
 - [Ahmad Shah Abdali First-class Trophy](https://cricvega.github.io/series/18479-ahmad-shah-abdali-first-class-trophy)
 - [Australia Under-19s tour of India 2026/27](https://cricvega.github.io/series/24377-australia-under-19s-tour-of-india-2026-27)
 - [President's Trophy](https://cricvega.github.io/series/8836-president-s-trophy)
@@ -85,7 +86,6 @@ Website: https://cricvega.github.io/ — free live cricket scores, ball-by-ball 
 - [Australia A tour of India 2026/27](https://cricvega.github.io/series/24375-australia-a-tour-of-india-2026-27)
 - [West Indies tour of India 2026/27](https://cricvega.github.io/series/24289-west-indies-tour-of-india-2026-27)
 - [ICC Men's T20 World Cup Sub Regional Asia Qualifier B 2026/27](https://cricvega.github.io/series/1554555-icc-men-s-t20-world-cup-sub-regional-asia-qualifier-b-2026-27)
-- [ICC Men's Cricket World Cup League 2](https://cricvega.github.io/series/19439-icc-men-s-cricket-world-cup-league-2)
 - [Indonesia tour of South Korea 2026/27](https://cricvega.github.io/series/24803-indonesia-tour-of-south-korea-2026-27)
 - [Bangladesh tour of United Arab Emirates 2026/27](https://cricvega.github.io/series/24801-bangladesh-tour-of-united-arab-emirates-2026-27)
 - [Australia tour of South Africa 2026/27](https://cricvega.github.io/series/24203-australia-tour-of-south-africa-2026-27)
