@@ -8,7 +8,6 @@ Website: https://cricvega.github.io/ — free live cricket scores, ball-by-ball 
 
 - [Bangladesh vs Afghanistan, Only Test — Preview](https://cricvega.github.io/match/1555116-afghanistan-vs-bangladesh-only-test)
 - [Australia vs South Africa, 1st Test — Preview](https://cricvega.github.io/match/1525659-south-africa-vs-australia-1st-test)
-- [Victoria vs South Australia, 1st Match — Preview](https://cricvega.github.io/match/1544864-victoria-vs-south-australia-1st-match)
 - [Tasmania vs New South Wales, 2nd Match — Preview](https://cricvega.github.io/match/1544865-new-south-wales-vs-tasmania-2nd-match)
 - [Queensland vs Western Australia, 3rd Match — Preview](https://cricvega.github.io/match/1544866-western-australia-vs-queensland-3rd-match)
 - [Chattogram Division vs Barishal Division, 8th Match — Preview](https://cricvega.github.io/match/1555672-chattogram-division-vs-barishal-division-8th-match)
@@ -46,6 +45,7 @@ Website: https://cricvega.github.io/ — free live cricket scores, ball-by-ball 
 - [India A vs Australia A, 3rd unofficial ODI — Preview](https://cricvega.github.io/match/1535676-india-a-vs-australia-a-3rd-unofficial-odi)
 - [Pakistan Women Under-19s vs Bangladesh Women Under-19s, 7th Match — Preview](https://cricvega.github.io/match/1554713-pakistan-women-under-19s-vs-bangladesh-women-under-19s-7th-match)
 - [Canada vs Nepal, 132nd Match — Preview](https://cricvega.github.io/match/1554416-canada-vs-nepal-132nd-match)
+- [Bahrain vs Mongolia, 15th Match — Preview](https://cricvega.github.io/match/1554547-bahrain-vs-mongolia-15th-match)
 
 ## Recent results
 
@@ -73,12 +73,12 @@ Website: https://cricvega.github.io/ — free live cricket scores, ball-by-ball 
 ## Series
 
 - [Sheffield Shield](https://cricvega.github.io/series/8043-sheffield-shield)
-- [ICC Men's Cricket World Cup League 2](https://cricvega.github.io/series/19439-icc-men-s-cricket-world-cup-league-2)
 - [Bangladesh tour of United Arab Emirates 2026/27](https://cricvega.github.io/series/24801-bangladesh-tour-of-united-arab-emirates-2026-27)
 - [Australia tour of South Africa 2026/27](https://cricvega.github.io/series/24203-australia-tour-of-south-africa-2026-27)
 - [National Cricket League](https://cricvega.github.io/series/8814-national-cricket-league)
 - [CSA Women Pro50 Series 2026/27](https://cricvega.github.io/series/1554058-csa-women-pro50-series-2026-27)
 - [South Africa Domestic T20/Pro20](https://cricvega.github.io/series/8656-south-africa-domestic-t20-pro20)
+- [ICC Men's Cricket World Cup League 2](https://cricvega.github.io/series/19439-icc-men-s-cricket-world-cup-league-2)
 - [President's Trophy](https://cricvega.github.io/series/8836-president-s-trophy)
 - [ICC Men's T20 World Cup Sub Regional Asia Qualifier A](https://cricvega.github.io/series/20451-icc-men-s-t20-world-cup-sub-regional-asia-qualifier-a)
 - [Bangladesh Women tour of Australia 2026/27](https://cricvega.github.io/series/24276-bangladesh-women-tour-of-australia-2026-27)
