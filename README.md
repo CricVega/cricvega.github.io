@@ -6,7 +6,7 @@ Website: https://cricvega.github.io/ — free live cricket scores, ball-by-ball 
 
 ## 🔴 Live & upcoming matches (auto-updated)
 
-- [Tripura vs Hyderabad (India), Elite — Preview](https://cricvega.github.io/match/1546528-hyderabad-india-vs-tripura-elite)
+- [Nepal vs Oman, 134th Match — Preview](https://cricvega.github.io/match/1554417-oman-vs-nepal-134th-match)
 - [Bangladesh vs Afghanistan, Only Test — Preview](https://cricvega.github.io/match/1555116-afghanistan-vs-bangladesh-only-test)
 - [Australia vs South Africa, 1st Test — Preview](https://cricvega.github.io/match/1525659-south-africa-vs-australia-1st-test)
 - [Sikkim vs Meghalaya, Plate Group — Preview](https://cricvega.github.io/match/1546541-sikkim-vs-meghalaya-plate-group)
@@ -32,12 +32,11 @@ Website: https://cricvega.github.io/ — free live cricket scores, ball-by-ball 
 - [Barishal Division vs Chattogram Division, 8th Match — Preview](https://cricvega.github.io/match/1555672-chattogram-division-vs-barishal-division-8th-match)
 - [Pakistan Television vs Khan Research Laboratories, 22nd Match — Preview](https://cricvega.github.io/match/1553798-khan-research-laboratories-vs-pakistan-television-22nd-match)
 - [Markhor IT Solutions vs State Bank of Pakistan, 23rd Match — Preview](https://cricvega.github.io/match/1553799-markhor-it-solutions-vs-state-bank-of-pakistan-23rd-match)
-- [Tasmania vs New South Wales, 8th Match — Preview](https://cricvega.github.io/match/1544849-new-south-wales-vs-tasmania-8th-match)
-- [Oman vs Nepal, 134th Match — Preview](https://cricvega.github.io/match/1554417-oman-vs-nepal-134th-match)
-- [Western Australia vs Queensland, 9th Match — Preview](https://cricvega.github.io/match/1544850-western-australia-vs-queensland-9th-match)
+- [Queensland vs Western Australia, 9th Match — Preview](https://cricvega.github.io/match/1544850-western-australia-vs-queensland-9th-match)
 - [KwaZulu-Natal Inland vs Titans, Pool A — Preview](https://cricvega.github.io/match/1551867-kwazulu-natal-inland-vs-titans-pool-b)
 - [Northern Cape vs Limpopo, Pool B — Preview](https://cricvega.github.io/match/1551832-northern-cape-vs-limpopo-pool-a)
 - [Pakistan vs Sri Lanka, 3rd T20I — Preview](https://cricvega.github.io/match/1550710-pakistan-vs-sri-lanka-3rd-t20i)
+- [United States of America vs Namibia, 135th Match — Preview](https://cricvega.github.io/match/1554414-united-states-of-america-vs-namibia-135th-match)
 - [Lions vs Border, Pool B — Preview](https://cricvega.github.io/match/1551865-lions-vs-border-pool-a)
 - [North West vs Dolphins, Pool B — Preview](https://cricvega.github.io/match/1551866-north-west-vs-dolphins-pool-a)
 - [Bahrain vs Qatar, 20th Match — Preview](https://cricvega.github.io/match/1554552-bahrain-vs-qatar-20th-match)
@@ -46,9 +45,11 @@ Website: https://cricvega.github.io/ — free live cricket scores, ball-by-ball 
 - [Australia Women vs Bangladesh Women, 3rd ODI — Preview](https://cricvega.github.io/match/1528718-australia-women-vs-bangladesh-women-3rd-odi)
 - [Ghani vs Hyderabad Kingsmen Academy, 21st Match — Preview](https://cricvega.github.io/match/1553797-ghani-vs-hyderabad-kingsmen-academy-21st-match)
 - [Oil & Gas Development Company Limited vs Sui Northern Gas Pipelines Limited, 24th Match — Preview](https://cricvega.github.io/match/1553800-oil-and-gas-development-company-limited-vs-sui-northern-gas-pipelines-limited-24)
+- [Bangladesh Women Under-19s vs Sri Lanka Women Under-19s, 9th Match — Preview](https://cricvega.github.io/match/1554715-bangladesh-women-under-19s-vs-sri-lanka-women-under-19s-9th-match)
 
 ## Recent results
 
+- [Tasmania vs New South Wales, 8th Match](https://cricvega.github.io/match/1544849-new-south-wales-vs-tasmania-8th-match)
 - [Qatar vs Mongolia, 16th Match](https://cricvega.github.io/match/1554548-qatar-vs-mongolia-16th-match)
 - [Myanmar vs Thailand, 17th Match](https://cricvega.github.io/match/1554549-myanmar-vs-thailand-17th-match)
 - [Bhutan vs Kuwait, 18th Match](https://cricvega.github.io/match/1554550-bhutan-vs-kuwait-18th-match)
@@ -68,7 +69,6 @@ Website: https://cricvega.github.io/ — free live cricket scores, ball-by-ball 
 - [Nepal vs Canada, 132nd Match](https://cricvega.github.io/match/1554416-canada-vs-nepal-132nd-match)
 - [Myanmar vs Kuwait, 13th Match](https://cricvega.github.io/match/1554545-kuwait-vs-myanmar-13th-match)
 - [Bhutan vs Qatar, 14th Match](https://cricvega.github.io/match/1554546-bhutan-vs-qatar-14th-match)
-- [Mongolia vs Bahrain, 15th Match](https://cricvega.github.io/match/1554547-bahrain-vs-mongolia-15th-match)
 
 ## Series
 
@@ -91,9 +91,9 @@ Website: https://cricvega.github.io/ — free live cricket scores, ball-by-ball 
 - [Australia A tour of India 2026/27](https://cricvega.github.io/series/24375-australia-a-tour-of-india-2026-27)
 - [CSA Women's Division Two T20](https://cricvega.github.io/series/22562-csa-women-s-division-two-t20)
 - [CSA Women Pro20 Series 2026/27](https://cricvega.github.io/series/1554057-csa-women-pro20-series-2026-27)
+- [ECA Women's European Cup 2026/27](https://cricvega.github.io/series/1558221-eca-women-s-european-cup-2026-27)
 - [CSA Women Pro50 Series 2026/27](https://cricvega.github.io/series/1554058-csa-women-pro50-series-2026-27)
 - [Bangladesh Under-19s tour of Oman 2026/27](https://cricvega.github.io/series/1558203-bangladesh-under-19s-tour-of-oman-2026-27)
 - [Zimbabwe Women tour of India 2026/27](https://cricvega.github.io/series/24371-zimbabwe-women-tour-of-india-2026-27)
 - [UAE ODI Tri-Series 2026/27](https://cricvega.github.io/series/1555109-uae-odi-tri-series-2026-27)
 - [Australia Under-19s tour of India 2026/27](https://cricvega.github.io/series/24377-australia-under-19s-tour-of-india-2026-27)
-- [Pakistan ODI Tri-Series 2026/27](https://cricvega.github.io/series/1550706-pakistan-odi-tri-series-2026-27)
