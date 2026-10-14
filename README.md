@@ -9,6 +9,9 @@ Website: https://plumbsquare.github.io/cricvega.github.io/ — free live cricket
 - [Markhor IT Solutions vs State Bank of Pakistan, 23rd Match — Preview](https://plumbsquare.github.io/cricvega.github.io/match/1553799-markhor-it-solutions-vs-state-bank-of-pakistan-23rd-match)
 - [Ghani vs Hyderabad Kingsmen Academy, 21st Match — Preview](https://plumbsquare.github.io/cricvega.github.io/match/1553797-ghani-vs-hyderabad-kingsmen-academy-21st-match)
 - [Oil & Gas Development Company Limited vs Sui Northern Gas Pipelines Limited, 24th Match — Preview](https://plumbsquare.github.io/cricvega.github.io/match/1553800-oil-and-gas-development-company-limited-vs-sui-northern-gas-pipelines-limited-24)
+- [Oman vs Canada, 136th Match — Preview](https://plumbsquare.github.io/cricvega.github.io/match/1554418-oman-vs-canada-136th-match)
+- [Austria Women vs Sweden Women, 1st Match — Preview](https://plumbsquare.github.io/cricvega.github.io/match/1558244-austria-women-vs-sweden-women-1st-match)
+- [Bulgaria Women vs Sweden Women, 2nd Match — Preview](https://plumbsquare.github.io/cricvega.github.io/match/1558245-bulgaria-women-vs-sweden-women-2nd-match)
 - [Australian Capital Territory Women vs Brisbane Heat Women, 10th Match — Preview](https://plumbsquare.github.io/cricvega.github.io/match/1558398-australian-capital-territory-women-vs-brisbane-heat-women-10th-match)
 - [TBA vs TBA, Final — Preview](https://plumbsquare.github.io/cricvega.github.io/match/1554716-tba-vs-tba-final)
 - [Afghanistan Under-19s vs Bangladesh Under-19s, 1st Youth ODI — Preview](https://plumbsquare.github.io/cricvega.github.io/match/1558205-afghanistan-under-19s-vs-bangladesh-under-19s-1st-youth-odi)
@@ -43,9 +46,6 @@ Website: https://plumbsquare.github.io/cricvega.github.io/ — free live cricket
 - [Andhra vs Hyderabad (India), Elite — Preview](https://plumbsquare.github.io/cricvega.github.io/match/1546547-andhra-vs-hyderabad-india-elite)
 - [Arunachal Pradesh vs Sikkim, Plate Group — Preview](https://plumbsquare.github.io/cricvega.github.io/match/1546560-arunachal-pradesh-vs-sikkim-plate-group)
 - [Baroda vs Bihar, Elite — Preview](https://plumbsquare.github.io/cricvega.github.io/match/1546543-baroda-vs-bihar-elite)
-- [Delhi vs Gujarat, Elite — Preview](https://plumbsquare.github.io/cricvega.github.io/match/1546552-delhi-vs-gujarat-elite)
-- [Haryana vs Chandigarh, Elite — Preview](https://plumbsquare.github.io/cricvega.github.io/match/1546555-haryana-vs-chandigarh-elite)
-- [Himachal Pradesh vs Mumbai, Elite — Preview](https://plumbsquare.github.io/cricvega.github.io/match/1546556-himachal-pradesh-vs-mumbai-elite)
 
 ## Recent results
 
@@ -72,19 +72,19 @@ Website: https://plumbsquare.github.io/cricvega.github.io/ — free live cricket
 
 ## Series
 
+- [ICC Men's Cricket World Cup League 2](https://plumbsquare.github.io/cricvega.github.io/series/19439-icc-men-s-cricket-world-cup-league-2)
 - [President's Trophy](https://plumbsquare.github.io/cricvega.github.io/series/8836-president-s-trophy)
-- [Pakistan Women's Under-19s T20 Tri-Series 2026/27](https://plumbsquare.github.io/cricvega.github.io/series/1554704-pakistan-women-s-under-19s-t20-tri-series-2026-27)
-- [West Indies tour of India 2026/27](https://plumbsquare.github.io/cricvega.github.io/series/24289-west-indies-tour-of-india-2026-27)
-- [South Africa Domestic T20/Pro20](https://plumbsquare.github.io/cricvega.github.io/series/8656-south-africa-domestic-t20-pro20)
+- [ECA Women's European Cup 2026/27](https://plumbsquare.github.io/cricvega.github.io/series/1558221-eca-women-s-european-cup-2026-27)
 - [Ranji Trophy](https://plumbsquare.github.io/cricvega.github.io/series/8050-ranji-trophy)
 - [ICC Men's T20 World Cup Sub Regional Asia Qualifier B](https://plumbsquare.github.io/cricvega.github.io/series/1554555-icc-men-s-t20-world-cup-sub-regional-asia-qualifier-b)
 - [ICC Men's T20 World Cup Sub Regional Asia Qualifier A](https://plumbsquare.github.io/cricvega.github.io/series/20451-icc-men-s-t20-world-cup-sub-regional-asia-qualifier-a)
 - [T20 Spring Challenge](https://plumbsquare.github.io/cricvega.github.io/series/22804-t20-spring-challenge)
 - [Bangladesh Women tour of Australia 2026/27](https://plumbsquare.github.io/cricvega.github.io/series/24276-bangladesh-women-tour-of-australia-2026-27)
+- [Pakistan Women's Under-19s T20 Tri-Series 2026/27](https://plumbsquare.github.io/cricvega.github.io/series/1554704-pakistan-women-s-under-19s-t20-tri-series-2026-27)
+- [West Indies tour of India 2026/27](https://plumbsquare.github.io/cricvega.github.io/series/24289-west-indies-tour-of-india-2026-27)
+- [South Africa Domestic T20/Pro20](https://plumbsquare.github.io/cricvega.github.io/series/8656-south-africa-domestic-t20-pro20)
 - [Bangladesh Under-19s tour of Oman 2026/27](https://plumbsquare.github.io/cricvega.github.io/series/24831-bangladesh-under-19s-tour-of-oman-2026-27)
-- [ECA Women's European Cup 2026/27](https://plumbsquare.github.io/cricvega.github.io/series/1558221-eca-women-s-european-cup-2026-27)
 - [Zimbabwe Women tour of India 2026/27](https://plumbsquare.github.io/cricvega.github.io/series/24371-zimbabwe-women-tour-of-india-2026-27)
-- [ICC Men's Cricket World Cup League 2](https://plumbsquare.github.io/cricvega.github.io/series/19439-icc-men-s-cricket-world-cup-league-2)
 - [Bangladesh tour of United Arab Emirates 2026/27](https://plumbsquare.github.io/cricvega.github.io/series/24801-bangladesh-tour-of-united-arab-emirates-2026-27)
 - [Australia tour of South Africa 2026/27](https://plumbsquare.github.io/cricvega.github.io/series/24203-australia-tour-of-south-africa-2026-27)
 - [National Cricket League](https://plumbsquare.github.io/cricvega.github.io/series/8814-national-cricket-league)
