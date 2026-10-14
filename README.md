@@ -6,7 +6,6 @@ Website: https://cricvega.github.io/ — free live cricket scores, ball-by-ball 
 
 ## 🔴 Live & upcoming matches (auto-updated)
 
-- [United States of America vs Namibia, 135th Match — Preview](https://cricvega.github.io/match/1554414-united-states-of-america-vs-namibia-135th-match)
 - [Sikkim vs Meghalaya, Plate Group — Preview](https://cricvega.github.io/match/1546541-sikkim-vs-meghalaya-plate-group)
 - [Delhi vs Bengal, Elite — Preview](https://cricvega.github.io/match/1546534-bengal-vs-delhi-elite)
 - [Jharkhand vs Kerala, Elite — Preview](https://cricvega.github.io/match/1546532-jharkhand-vs-kerala-elite)
@@ -35,6 +34,8 @@ Website: https://cricvega.github.io/ — free live cricket scores, ball-by-ball 
 - [Hong Kong vs Singapore, 14th Match — Preview](https://cricvega.github.io/match/1554581-hong-kong-vs-singapore-14th-match)
 - [Maldives vs Saudi Arabia, 15th Match — Preview](https://cricvega.github.io/match/1554582-maldives-vs-saudi-arabia-15th-match)
 - [India vs West Indies, 4th T20I — Preview](https://cricvega.github.io/match/1529233-india-vs-west-indies-4th-t20i)
+- [Knights vs Easterns, Pool A — Preview](https://cricvega.github.io/match/1551869-knights-vs-easterns-pool-b)
+- [Western Province vs Boland, Pool A — Preview](https://cricvega.github.io/match/1551868-western-province-vs-boland-pool-b)
 - [Oman vs Canada, 136th Match — Preview](https://cricvega.github.io/match/1554418-oman-vs-canada-136th-match)
 - [Austria Women vs Sweden Women, 1st Match — Preview](https://cricvega.github.io/match/1558244-austria-women-vs-sweden-women-1st-match)
 - [Bulgaria Women vs Sweden Women, 2nd Match — Preview](https://cricvega.github.io/match/1558245-bulgaria-women-vs-sweden-women-2nd-match)
@@ -45,12 +46,12 @@ Website: https://cricvega.github.io/ — free live cricket scores, ball-by-ball 
 - [Limpopo vs Border, Pool B — Preview](https://cricvega.github.io/match/1551871-limpopo-vs-border-pool-a)
 - [South Western Districts vs Warriors, Pool B — Preview](https://cricvega.github.io/match/1551870-south-western-districts-vs-warriors-pool-a)
 - [India Women vs Zimbabwe Women, 1st T20I — Preview](https://cricvega.github.io/match/1535652-india-women-vs-zimbabwe-women-1st-t20i)
-- [South Australia vs Queensland, 10th Match — Preview](https://cricvega.github.io/match/1544851-south-australia-vs-queensland-10th-match)
 
 ## Recent results
 
 - [Lions vs Border, Pool B](https://cricvega.github.io/match/1551865-lions-vs-border-pool-a)
 - [North West vs Dolphins, Pool B](https://cricvega.github.io/match/1551866-north-west-vs-dolphins-pool-a)
+- [United States of America vs Namibia, 135th Match](https://cricvega.github.io/match/1554414-united-states-of-america-vs-namibia-135th-match)
 - [Pakistan vs Sri Lanka, 3rd T20I](https://cricvega.github.io/match/1550710-pakistan-vs-sri-lanka-3rd-t20i)
 - [Titans vs KwaZulu-Natal Inland, Pool A](https://cricvega.github.io/match/1551867-kwazulu-natal-inland-vs-titans-pool-b)
 - [Northern Cape vs Limpopo, Pool B](https://cricvega.github.io/match/1551832-northern-cape-vs-limpopo-pool-a)
@@ -68,21 +69,20 @@ Website: https://cricvega.github.io/ — free live cricket scores, ball-by-ball 
 - [Titans vs Easterns, Pool A](https://cricvega.github.io/match/1551864-titans-vs-easterns-pool-b)
 - [United Arab Emirates vs United States of America, 133rd Match](https://cricvega.github.io/match/1554413-united-states-of-america-vs-united-arab-emirates-133rd-match)
 - [India vs West Indies, 3rd T20I](https://cricvega.github.io/match/1529232-india-vs-west-indies-3rd-t20i)
-- [Pakistan vs Sri Lanka, 2nd T20I](https://cricvega.github.io/match/1550709-pakistan-vs-sri-lanka-2nd-t20i)
 
 ## Series
 
 - [Ranji Trophy](https://cricvega.github.io/series/8050-ranji-trophy)
 - [ICC Men's Cricket World Cup League 2](https://cricvega.github.io/series/19439-icc-men-s-cricket-world-cup-league-2)
-- [Australia tour of South Africa 2026/27](https://cricvega.github.io/series/24203-australia-tour-of-south-africa-2026-27)
 - [President's Trophy](https://cricvega.github.io/series/8836-president-s-trophy)
-- [South Africa Domestic T20/Pro20](https://cricvega.github.io/series/8656-south-africa-domestic-t20-pro20)
 - [ICC Men's T20 World Cup Sub Regional Asia Qualifier A](https://cricvega.github.io/series/20451-icc-men-s-t20-world-cup-sub-regional-asia-qualifier-a)
 - [ICC Men's T20 World Cup Sub Regional Asia Qualifier B](https://cricvega.github.io/series/1554555-icc-men-s-t20-world-cup-sub-regional-asia-qualifier-b)
 - [Bangladesh Women tour of Australia 2026/27](https://cricvega.github.io/series/24276-bangladesh-women-tour-of-australia-2026-27)
 - [Pakistan Women's Under-19s T20 Tri-Series 2026/27](https://cricvega.github.io/series/1554704-pakistan-women-s-under-19s-t20-tri-series-2026-27)
 - [West Indies tour of India 2026/27](https://cricvega.github.io/series/24289-west-indies-tour-of-india-2026-27)
+- [South Africa Domestic T20/Pro20](https://cricvega.github.io/series/8656-south-africa-domestic-t20-pro20)
 - [Bangladesh tour of United Arab Emirates 2026/27](https://cricvega.github.io/series/24801-bangladesh-tour-of-united-arab-emirates-2026-27)
+- [Australia tour of South Africa 2026/27](https://cricvega.github.io/series/24203-australia-tour-of-south-africa-2026-27)
 - [National Cricket League](https://cricvega.github.io/series/8814-national-cricket-league)
 - [Australian Domestic One-Day Competition](https://cricvega.github.io/series/8626-australian-domestic-one-day-competition)
 - [Sri Lanka tour of Pakistan 2026/27](https://cricvega.github.io/series/24707-sri-lanka-tour-of-pakistan-2026-27)
