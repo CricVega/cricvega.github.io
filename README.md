@@ -6,13 +6,14 @@ Website: https://cricvega.github.io/ — free live cricket scores, ball-by-ball 
 
 ## 🔴 Live & upcoming matches (auto-updated)
 
+- [Bahrain vs Qatar, 20th Match — Preview](https://cricvega.github.io/match/1554552-bahrain-vs-qatar-20th-match)
+- [Bangladesh Women vs Australia Women, 3rd ODI — Preview](https://cricvega.github.io/match/1528718-australia-women-vs-bangladesh-women-3rd-odi)
 - [Sikkim vs Meghalaya, Plate Group — Preview](https://cricvega.github.io/match/1546541-sikkim-vs-meghalaya-plate-group)
 - [Delhi vs Bengal, Elite — Preview](https://cricvega.github.io/match/1546534-bengal-vs-delhi-elite)
 - [Jharkhand vs Kerala, Elite — Preview](https://cricvega.github.io/match/1546532-jharkhand-vs-kerala-elite)
 - [Karnataka vs Andhra, Elite — Preview](https://cricvega.github.io/match/1546529-andhra-vs-karnataka-elite)
 - [Baroda vs Goa, Elite — Preview](https://cricvega.github.io/match/1546524-goa-vs-baroda-elite)
 - [Odisha vs Gujarat, Elite — Preview](https://cricvega.github.io/match/1546533-gujarat-vs-odisha-elite)
-- [Himachal Pradesh vs Haryana, Elite — Preview](https://cricvega.github.io/match/1546536-haryana-vs-himachal-pradesh-elite)
 - [Madhya Pradesh vs Jammu & Kashmir, Elite — Preview](https://cricvega.github.io/match/1546526-jammu-and-kashmir-vs-madhya-pradesh-elite)
 - [Mizoram vs Manipur, Plate Group — Preview](https://cricvega.github.io/match/1546540-mizoram-vs-manipur-plate-group)
 - [Assam vs Punjab, Elite — Preview](https://cricvega.github.io/match/1546530-punjab-vs-assam-elite)
@@ -23,10 +24,6 @@ Website: https://cricvega.github.io/ — free live cricket scores, ball-by-ball 
 - [Vidarbha vs Puducherry, Elite — Preview](https://cricvega.github.io/match/1546527-vidarbha-vs-puducherry-elite)
 - [Pakistan Television vs Khan Research Laboratories, 22nd Match — Preview](https://cricvega.github.io/match/1553798-khan-research-laboratories-vs-pakistan-television-22nd-match)
 - [Markhor IT Solutions vs State Bank of Pakistan, 23rd Match — Preview](https://cricvega.github.io/match/1553799-markhor-it-solutions-vs-state-bank-of-pakistan-23rd-match)
-- [Bahrain vs Qatar, 20th Match — Preview](https://cricvega.github.io/match/1554552-bahrain-vs-qatar-20th-match)
-- [Mongolia vs Myanmar, 19th Match — Preview](https://cricvega.github.io/match/1554551-mongolia-vs-myanmar-19th-match)
-- [Malaysia vs China, 13th Match — Preview](https://cricvega.github.io/match/1554580-malaysia-vs-china-13th-match)
-- [Australia Women vs Bangladesh Women, 3rd ODI — Preview](https://cricvega.github.io/match/1528718-australia-women-vs-bangladesh-women-3rd-odi)
 - [Ghani vs Hyderabad Kingsmen Academy, 21st Match — Preview](https://cricvega.github.io/match/1553797-ghani-vs-hyderabad-kingsmen-academy-21st-match)
 - [Oil & Gas Development Company Limited vs Sui Northern Gas Pipelines Limited, 24th Match — Preview](https://cricvega.github.io/match/1553800-oil-and-gas-development-company-limited-vs-sui-northern-gas-pipelines-limited-24)
 - [Bangladesh Women Under-19s vs Sri Lanka Women Under-19s, 9th Match — Preview](https://cricvega.github.io/match/1554715-bangladesh-women-under-19s-vs-sri-lanka-women-under-19s-9th-match)
@@ -46,9 +43,14 @@ Website: https://cricvega.github.io/ — free live cricket scores, ball-by-ball 
 - [Limpopo vs Border, Pool B — Preview](https://cricvega.github.io/match/1551871-limpopo-vs-border-pool-a)
 - [South Western Districts vs Warriors, Pool B — Preview](https://cricvega.github.io/match/1551870-south-western-districts-vs-warriors-pool-a)
 - [India Women vs Zimbabwe Women, 1st T20I — Preview](https://cricvega.github.io/match/1535652-india-women-vs-zimbabwe-women-1st-t20i)
+- [South Australia vs Queensland, 10th Match — Preview](https://cricvega.github.io/match/1544851-south-australia-vs-queensland-10th-match)
+- [Canada vs Nepal, 137th Match — Preview](https://cricvega.github.io/match/1554419-canada-vs-nepal-137th-match)
+- [Romania Women vs Austria Women, 5th Match — Preview](https://cricvega.github.io/match/1558248-romania-women-vs-austria-women-5th-match)
 
 ## Recent results
 
+- [Mongolia vs Myanmar, 19th Match](https://cricvega.github.io/match/1554551-mongolia-vs-myanmar-19th-match)
+- [China vs Malaysia, 13th Match](https://cricvega.github.io/match/1554580-malaysia-vs-china-13th-match)
 - [Lions vs Border, Pool B](https://cricvega.github.io/match/1551865-lions-vs-border-pool-a)
 - [North West vs Dolphins, Pool B](https://cricvega.github.io/match/1551866-north-west-vs-dolphins-pool-a)
 - [United States of America vs Namibia, 135th Match](https://cricvega.github.io/match/1554414-united-states-of-america-vs-namibia-135th-match)
@@ -67,8 +69,6 @@ Website: https://cricvega.github.io/ — free live cricket scores, ball-by-ball 
 - [Hong Kong vs Maldives, 11th Match](https://cricvega.github.io/match/1554578-hong-kong-vs-maldives-11th-match)
 - [Saudi Arabia vs China, 12th Match](https://cricvega.github.io/match/1554579-china-vs-saudi-arabia-12th-match)
 - [Titans vs Easterns, Pool A](https://cricvega.github.io/match/1551864-titans-vs-easterns-pool-b)
-- [United Arab Emirates vs United States of America, 133rd Match](https://cricvega.github.io/match/1554413-united-states-of-america-vs-united-arab-emirates-133rd-match)
-- [India vs West Indies, 3rd T20I](https://cricvega.github.io/match/1529232-india-vs-west-indies-3rd-t20i)
 
 ## Series
 
@@ -87,7 +87,7 @@ Website: https://cricvega.github.io/ — free live cricket scores, ball-by-ball 
 - [Australian Domestic One-Day Competition](https://cricvega.github.io/series/8626-australian-domestic-one-day-competition)
 - [Sri Lanka tour of Pakistan 2026/27](https://cricvega.github.io/series/24707-sri-lanka-tour-of-pakistan-2026-27)
 - [ECA Women's European Cup 2026/27](https://cricvega.github.io/series/1558221-eca-women-s-european-cup-2026-27)
-- [Bangladesh Under-19s tour of Oman 2026/27](https://cricvega.github.io/series/1558203-bangladesh-under-19s-tour-of-oman-2026-27)
+- [Bangladesh Under-19s tour of Oman 2026/27](https://cricvega.github.io/series/24831-bangladesh-under-19s-tour-of-oman-2026-27)
 - [Zimbabwe Women tour of India 2026/27](https://cricvega.github.io/series/24371-zimbabwe-women-tour-of-india-2026-27)
 - [Sheffield Shield](https://cricvega.github.io/series/8043-sheffield-shield)
 - [Hong Kong Premier League One-Day Tournament](https://cricvega.github.io/series/19482-hong-kong-premier-league-one-day-tournament)
