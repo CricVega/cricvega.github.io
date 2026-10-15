@@ -6,14 +6,14 @@ Website: https://plumbsquare.github.io/cricvega.github.io/ — free live cricket
 
 ## 🔴 Live & upcoming matches (auto-updated)
 
+- [Canada vs Oman, 136th Match — Preview](https://plumbsquare.github.io/cricvega.github.io/match/1554418-oman-vs-canada-136th-match)
 - [Markhor IT Solutions vs State Bank of Pakistan, 23rd Match — Preview](https://plumbsquare.github.io/cricvega.github.io/match/1553799-markhor-it-solutions-vs-state-bank-of-pakistan-23rd-match)
 - [Ghani vs Hyderabad Kingsmen Academy, 21st Match — Preview](https://plumbsquare.github.io/cricvega.github.io/match/1553797-ghani-vs-hyderabad-kingsmen-academy-21st-match)
 - [Oil & Gas Development Company Limited vs Sui Northern Gas Pipelines Limited, 24th Match — Preview](https://plumbsquare.github.io/cricvega.github.io/match/1553800-oil-and-gas-development-company-limited-vs-sui-northern-gas-pipelines-limited-24)
-- [Oman vs Canada, 136th Match — Preview](https://plumbsquare.github.io/cricvega.github.io/match/1554418-oman-vs-canada-136th-match)
 - [Austria Women vs Sweden Women, 1st Match — Preview](https://plumbsquare.github.io/cricvega.github.io/match/1558244-austria-women-vs-sweden-women-1st-match)
 - [Bulgaria Women vs Sweden Women, 2nd Match — Preview](https://plumbsquare.github.io/cricvega.github.io/match/1558245-bulgaria-women-vs-sweden-women-2nd-match)
 - [Australian Capital Territory Women vs Brisbane Heat Women, 10th Match — Preview](https://plumbsquare.github.io/cricvega.github.io/match/1558398-australian-capital-territory-women-vs-brisbane-heat-women-10th-match)
-- [TBA vs TBA, Final — Preview](https://plumbsquare.github.io/cricvega.github.io/match/1554716-tba-vs-tba-final)
+- [Bangladesh Women Under-19s vs Sri Lanka Women Under-19s, Final — Preview](https://plumbsquare.github.io/cricvega.github.io/match/1554716-tba-vs-tba-final)
 - [Afghanistan Under-19s vs Bangladesh Under-19s, 1st Youth ODI — Preview](https://plumbsquare.github.io/cricvega.github.io/match/1558205-afghanistan-under-19s-vs-bangladesh-under-19s-1st-youth-odi)
 - [Romania Women vs Bulgaria Women, 3rd Match — Preview](https://plumbsquare.github.io/cricvega.github.io/match/1558246-romania-women-vs-bulgaria-women-3rd-match)
 - [Austria Women vs Bulgaria Women, 4th Match — Preview](https://plumbsquare.github.io/cricvega.github.io/match/1558247-austria-women-vs-bulgaria-women-4th-match)
