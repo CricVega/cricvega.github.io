@@ -66,9 +66,9 @@ Website: https://plumbsquare.github.io/cricvega.github.io/ — free live cricket
 - [China vs Malaysia, 13th Match](https://plumbsquare.github.io/cricvega.github.io/match/1554580-malaysia-vs-china-13th-match)
 - [Mongolia vs Myanmar, 19th Match](https://plumbsquare.github.io/cricvega.github.io/match/1554551-mongolia-vs-myanmar-19th-match)
 - [Bahrain vs Qatar, 20th Match](https://plumbsquare.github.io/cricvega.github.io/match/1554552-bahrain-vs-qatar-20th-match)
-- [Markhor IT Solutions vs State Bank of Pakistan, 23rd Match](https://plumbsquare.github.io/cricvega.github.io/match/1553799-markhor-it-solutions-vs-state-bank-of-pakistan-23rd-match)
-- [Pakistan Television vs Khan Research Laboratories, 22nd Match](https://plumbsquare.github.io/cricvega.github.io/match/1553798-khan-research-laboratories-vs-pakistan-television-22nd-match)
-- [Titans vs Easterns, Pool A](https://plumbsquare.github.io/cricvega.github.io/match/1551864-titans-vs-easterns-pool-b)
+- [Lions vs Border, Pool B](https://plumbsquare.github.io/cricvega.github.io/match/1551865-lions-vs-border-pool-a)
+- [North West vs Dolphins, Pool B](https://plumbsquare.github.io/cricvega.github.io/match/1551866-north-west-vs-dolphins-pool-a)
+- [United States of America vs Namibia, 135th Match](https://plumbsquare.github.io/cricvega.github.io/match/1554414-united-states-of-america-vs-namibia-135th-match)
 
 ## Series
 
@@ -95,5 +95,5 @@ Website: https://plumbsquare.github.io/cricvega.github.io/ — free live cricket
 - [CSA Women Pro20 Series 2026/27](https://plumbsquare.github.io/cricvega.github.io/series/1554057-csa-women-pro20-series-2026-27)
 - [Pakistan ODI Tri-Series](https://plumbsquare.github.io/cricvega.github.io/series/1550706-pakistan-odi-tri-series)
 - [Australia tour of South Africa 2026/27](https://plumbsquare.github.io/cricvega.github.io/series/24203-australia-tour-of-south-africa-2026-27)
-- [Sheffield Shield](https://plumbsquare.github.io/cricvega.github.io/series/8043-sheffield-shield)
-- [ICC Men's T20 World Cup Sub Regional Africa Qualifier Group C](https://plumbsquare.github.io/cricvega.github.io/series/23028-icc-men-s-t20-world-cup-sub-regional-africa-qualifier-group-c)
+- [Bangladesh tour of United Arab Emirates 2026/27](https://plumbsquare.github.io/cricvega.github.io/series/24801-bangladesh-tour-of-united-arab-emirates-2026-27)
+- [Sri Lanka tour of Pakistan 2026/27](https://plumbsquare.github.io/cricvega.github.io/series/24707-sri-lanka-tour-of-pakistan-2026-27)
