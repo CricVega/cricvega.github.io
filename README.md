@@ -6,11 +6,9 @@ Website: https://plumbsquare.github.io/cricvega.github.io/ — free live cricket
 
 ## 🔴 Live & upcoming matches (auto-updated)
 
+- [Romania Women vs Bulgaria Women, 3rd Match — Preview](https://plumbsquare.github.io/cricvega.github.io/match/1558246-romania-women-vs-bulgaria-women-3rd-match)
 - [Ghani vs Hyderabad Kingsmen Academy, 21st Match — Preview](https://plumbsquare.github.io/cricvega.github.io/match/1553797-ghani-vs-hyderabad-kingsmen-academy-21st-match)
 - [Oil & Gas Development Company Limited vs Sui Northern Gas Pipelines Limited, 24th Match — Preview](https://plumbsquare.github.io/cricvega.github.io/match/1553800-oil-and-gas-development-company-limited-vs-sui-northern-gas-pipelines-limited-24)
-- [Australian Capital Territory Women vs Brisbane Heat Women, 10th Match — Preview](https://plumbsquare.github.io/cricvega.github.io/match/1558398-australian-capital-territory-women-vs-brisbane-heat-women-10th-match)
-- [Bangladesh Women Under-19s vs Sri Lanka Women Under-19s, Final — Preview](https://plumbsquare.github.io/cricvega.github.io/match/1554716-tba-vs-tba-final)
-- [Romania Women vs Bulgaria Women, 3rd Match — Preview](https://plumbsquare.github.io/cricvega.github.io/match/1558246-romania-women-vs-bulgaria-women-3rd-match)
 - [Austria Women vs Bulgaria Women, 4th Match — Preview](https://plumbsquare.github.io/cricvega.github.io/match/1558247-austria-women-vs-bulgaria-women-4th-match)
 - [Limpopo vs Border, Pool B — Preview](https://plumbsquare.github.io/cricvega.github.io/match/1551871-limpopo-vs-border-pool-a)
 - [South Western Districts vs Warriors, Pool B — Preview](https://plumbsquare.github.io/cricvega.github.io/match/1551870-south-western-districts-vs-warriors-pool-a)
@@ -46,9 +44,13 @@ Website: https://plumbsquare.github.io/cricvega.github.io/ — free live cricket
 - [Haryana vs Chandigarh, Elite — Preview](https://plumbsquare.github.io/cricvega.github.io/match/1546555-haryana-vs-chandigarh-elite)
 - [Himachal Pradesh vs Mumbai, Elite — Preview](https://plumbsquare.github.io/cricvega.github.io/match/1546556-himachal-pradesh-vs-mumbai-elite)
 - [Jammu & Kashmir vs Vidarbha, Elite — Preview](https://plumbsquare.github.io/cricvega.github.io/match/1546545-jammu-and-kashmir-vs-vidarbha-elite)
+- [Karnataka vs Saurashtra, Elite — Preview](https://plumbsquare.github.io/cricvega.github.io/match/1546548-karnataka-vs-saurashtra-elite)
+- [Kerala vs Odisha, Elite — Preview](https://plumbsquare.github.io/cricvega.github.io/match/1546554-kerala-vs-odisha-elite)
 
 ## Recent results
 
+- [Sri Lanka Women Under-19s vs Bangladesh Women Under-19s, Final](https://plumbsquare.github.io/cricvega.github.io/match/1554716-tba-vs-tba-final)
+- [Australian Capital Territory Women vs Brisbane Heat Women, 10th Match](https://plumbsquare.github.io/cricvega.github.io/match/1558398-australian-capital-territory-women-vs-brisbane-heat-women-10th-match)
 - [Bulgaria Women vs Sweden Women, 2nd Match](https://plumbsquare.github.io/cricvega.github.io/match/1558245-bulgaria-women-vs-sweden-women-2nd-match)
 - [Governor-General XI Women vs New Zealand Women, Tour Match](https://plumbsquare.github.io/cricvega.github.io/match/1558543-governor-general-xi-women-vs-new-zealand-women-tour-match)
 - [Austria Women vs Sweden Women, 1st Match](https://plumbsquare.github.io/cricvega.github.io/match/1558244-austria-women-vs-sweden-women-1st-match)
@@ -67,15 +69,13 @@ Website: https://plumbsquare.github.io/cricvega.github.io/ — free live cricket
 - [Mongolia vs Myanmar, 19th Match](https://plumbsquare.github.io/cricvega.github.io/match/1554551-mongolia-vs-myanmar-19th-match)
 - [Bahrain vs Qatar, 20th Match](https://plumbsquare.github.io/cricvega.github.io/match/1554552-bahrain-vs-qatar-20th-match)
 - [Lions vs Border, Pool B](https://plumbsquare.github.io/cricvega.github.io/match/1551865-lions-vs-border-pool-a)
-- [North West vs Dolphins, Pool B](https://plumbsquare.github.io/cricvega.github.io/match/1551866-north-west-vs-dolphins-pool-a)
-- [United States of America vs Namibia, 135th Match](https://plumbsquare.github.io/cricvega.github.io/match/1554414-united-states-of-america-vs-namibia-135th-match)
 
 ## Series
 
 - [President's Trophy](https://plumbsquare.github.io/cricvega.github.io/series/8836-president-s-trophy)
 - [T20 Spring Challenge](https://plumbsquare.github.io/cricvega.github.io/series/22804-t20-spring-challenge)
 - [Pakistan Women's Under-19s T20 Tri-Series 2026/27](https://plumbsquare.github.io/cricvega.github.io/series/1554704-pakistan-women-s-under-19s-t20-tri-series-2026-27)
-- [ECA Women's European Cup 2026/27](https://plumbsquare.github.io/cricvega.github.io/series/1558221-eca-women-s-european-cup-2026-27)
+- [ECA Women's European Cup](https://plumbsquare.github.io/cricvega.github.io/series/1558221-eca-women-s-european-cup)
 - [South Africa Domestic T20/Pro20](https://plumbsquare.github.io/cricvega.github.io/series/8656-south-africa-domestic-t20-pro20)
 - [Zimbabwe Women tour of India 2026/27](https://plumbsquare.github.io/cricvega.github.io/series/24371-zimbabwe-women-tour-of-india-2026-27)
 - [ICC Men's Cricket World Cup League 2](https://plumbsquare.github.io/cricvega.github.io/series/19439-icc-men-s-cricket-world-cup-league-2)
