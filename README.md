@@ -6,16 +6,12 @@ Website: https://plumbsquare.github.io/cricvega.github.io/ — free live cricket
 
 ## 🔴 Live & upcoming matches (auto-updated)
 
+- [Canada vs Nepal, 137th Match — Preview](https://plumbsquare.github.io/cricvega.github.io/match/1554419-canada-vs-nepal-137th-match)
+- [Bangladesh Under-19s vs Afghanistan Under-19s, 1st Youth ODI — Preview](https://plumbsquare.github.io/cricvega.github.io/match/1558205-afghanistan-under-19s-vs-bangladesh-under-19s-1st-youth-odi)
+- [Romania Women vs Austria Women, 5th Match — Preview](https://plumbsquare.github.io/cricvega.github.io/match/1558248-romania-women-vs-austria-women-5th-match)
 - [Ghani vs Hyderabad Kingsmen Academy, 21st Match — Preview](https://plumbsquare.github.io/cricvega.github.io/match/1553797-ghani-vs-hyderabad-kingsmen-academy-21st-match)
 - [Oil & Gas Development Company Limited vs Sui Northern Gas Pipelines Limited, 24th Match — Preview](https://plumbsquare.github.io/cricvega.github.io/match/1553800-oil-and-gas-development-company-limited-vs-sui-northern-gas-pipelines-limited-24)
-- [Hobart Hurricanes Women vs Perth Scorchers Women, 12th Match — Preview](https://plumbsquare.github.io/cricvega.github.io/match/1558400-hobart-hurricanes-women-vs-perth-scorchers-women-12th-match)
-- [Sydney Thunder Women vs Melbourne Renegades Women, 11th Match — Preview](https://plumbsquare.github.io/cricvega.github.io/match/1558399-sydney-thunder-women-vs-melbourne-renegades-women-11th-match)
 - [Australian Capital Territory Women vs Melbourne Stars Women, 14th Match — Preview](https://plumbsquare.github.io/cricvega.github.io/match/1558402-australian-capital-territory-women-vs-melbourne-stars-women-14th-match)
-- [Sydney Sixers Women vs Adelaide Strikers Women, 13th Match — Preview](https://plumbsquare.github.io/cricvega.github.io/match/1558401-sydney-sixers-women-vs-adelaide-strikers-women-13th-match)
-- [South Australia vs Queensland, 10th Match — Preview](https://plumbsquare.github.io/cricvega.github.io/match/1544851-south-australia-vs-queensland-10th-match)
-- [Canada vs Nepal, 137th Match — Preview](https://plumbsquare.github.io/cricvega.github.io/match/1554419-canada-vs-nepal-137th-match)
-- [Afghanistan Under-19s vs Bangladesh Under-19s, 1st Youth ODI — Preview](https://plumbsquare.github.io/cricvega.github.io/match/1558205-afghanistan-under-19s-vs-bangladesh-under-19s-1st-youth-odi)
-- [Romania Women vs Austria Women, 5th Match — Preview](https://plumbsquare.github.io/cricvega.github.io/match/1558248-romania-women-vs-austria-women-5th-match)
 - [Dolphins Women vs Eastern Province Women, 5th Match — Preview](https://plumbsquare.github.io/cricvega.github.io/match/1554093-dolphins-women-vs-eastern-province-women-5th-match)
 - [Lions Women vs Western Province Women, 6th Match — Preview](https://plumbsquare.github.io/cricvega.github.io/match/1554094-lions-women-vs-western-province-women-6th-match)
 - [Romania Women vs Sweden Women, 6th Match — Preview](https://plumbsquare.github.io/cricvega.github.io/match/1558249-romania-women-vs-sweden-women-6th-match)
@@ -46,9 +42,17 @@ Website: https://plumbsquare.github.io/cricvega.github.io/ — free live cricket
 - [Nagaland vs Mizoram, Plate Group — Preview](https://plumbsquare.github.io/cricvega.github.io/match/1546561-nagaland-vs-mizoram-plate-group)
 - [Puducherry vs Madhya Pradesh, Elite — Preview](https://plumbsquare.github.io/cricvega.github.io/match/1546544-puducherry-vs-madhya-pradesh-elite)
 - [Punjab vs Chhattisgarh, Elite — Preview](https://plumbsquare.github.io/cricvega.github.io/match/1546549-punjab-vs-chhattisgarh-elite)
+- [Rajasthan vs Railways, Elite — Preview](https://plumbsquare.github.io/cricvega.github.io/match/1546558-rajasthan-vs-railways-elite)
+- [Services vs Bengal, Elite — Preview](https://plumbsquare.github.io/cricvega.github.io/match/1546553-services-vs-bengal-elite)
+- [Tamil Nadu vs Uttarakhand, Elite — Preview](https://plumbsquare.github.io/cricvega.github.io/match/1546557-tamil-nadu-vs-uttarakhand-elite)
+- [Uttar Pradesh vs Goa, Elite — Preview](https://plumbsquare.github.io/cricvega.github.io/match/1546546-uttar-pradesh-vs-goa-elite)
 
 ## Recent results
 
+- [Adelaide Strikers Women vs Sydney Sixers Women, 13th Match](https://plumbsquare.github.io/cricvega.github.io/match/1558401-sydney-sixers-women-vs-adelaide-strikers-women-13th-match)
+- [South Australia vs Queensland, 10th Match](https://plumbsquare.github.io/cricvega.github.io/match/1544851-south-australia-vs-queensland-10th-match)
+- [Perth Scorchers Women vs Hobart Hurricanes Women, 12th Match](https://plumbsquare.github.io/cricvega.github.io/match/1558400-hobart-hurricanes-women-vs-perth-scorchers-women-12th-match)
+- [Melbourne Renegades Women vs Sydney Thunder Women, 11th Match](https://plumbsquare.github.io/cricvega.github.io/match/1558399-sydney-thunder-women-vs-melbourne-renegades-women-11th-match)
 - [Zimbabwe Women vs India Women, 1st T20I](https://plumbsquare.github.io/cricvega.github.io/match/1535652-india-women-vs-zimbabwe-women-1st-t20i)
 - [Bulgaria Women vs Austria Women, 4th Match](https://plumbsquare.github.io/cricvega.github.io/match/1558247-austria-women-vs-bulgaria-women-4th-match)
 - [Border vs Limpopo, Pool B](https://plumbsquare.github.io/cricvega.github.io/match/1551871-limpopo-vs-border-pool-a)
@@ -65,10 +69,6 @@ Website: https://plumbsquare.github.io/cricvega.github.io/ — free live cricket
 - [West Indies vs India, 4th T20I](https://plumbsquare.github.io/cricvega.github.io/match/1529233-india-vs-west-indies-4th-t20i)
 - [Adelaide Strikers Women vs Hobart Hurricanes Women, 9th Match](https://plumbsquare.github.io/cricvega.github.io/match/1558397-adelaide-strikers-women-vs-hobart-hurricanes-women-9th-match)
 - [Hong Kong vs Singapore, 14th Match](https://plumbsquare.github.io/cricvega.github.io/match/1554581-hong-kong-vs-singapore-14th-match)
-- [Saudi Arabia vs Maldives, 15th Match](https://plumbsquare.github.io/cricvega.github.io/match/1554582-maldives-vs-saudi-arabia-15th-match)
-- [Thailand vs Bhutan, 21st Match](https://plumbsquare.github.io/cricvega.github.io/match/1554553-bhutan-vs-thailand-21st-match)
-- [Bangladesh Women Under-19s vs Sri Lanka Women Under-19s, 9th Match](https://plumbsquare.github.io/cricvega.github.io/match/1554715-bangladesh-women-under-19s-vs-sri-lanka-women-under-19s-9th-match)
-- [Bangladesh Women vs Australia Women, 3rd ODI](https://plumbsquare.github.io/cricvega.github.io/match/1528718-australia-women-vs-bangladesh-women-3rd-odi)
 
 ## Series
 
