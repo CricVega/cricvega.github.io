@@ -6,9 +6,7 @@ Website: https://plumbsquare.github.io/cricvega.github.io/ — free live cricket
 
 ## 🔴 Live & upcoming matches (auto-updated)
 
-- [India Women vs Zimbabwe Women — Preview](https://plumbsquare.github.io/cricvega.github.io/match/1535653-india-women-vs-zimbabwe-women-2nd-t20i)
 - [India vs West Indies, 5th T20I — Preview](https://plumbsquare.github.io/cricvega.github.io/match/1529234-india-vs-west-indies-5th-t20i)
-- [Boland vs Mpumalanga, Pool A — Preview](https://plumbsquare.github.io/cricvega.github.io/match/1551872-boland-vs-mpumalanga-pool-b)
 - [Hobart Hurricanes Women vs Melbourne Renegades Women, 15th Match — Preview](https://plumbsquare.github.io/cricvega.github.io/match/1558403-hobart-hurricanes-women-vs-melbourne-renegades-women-15th-match)
 - [Diasqua Little Sai Wan Cricket Club vs United Services Recreation Club, 4th Match — Preview](https://plumbsquare.github.io/cricvega.github.io/match/1555411-diasqua-little-sai-wan-cricket-club-vs-united-services-recreation-club-4th-match)
 - [Kowloon Cricket Club vs Pakistan Association of Hong Kong, 5th Match — Preview](https://plumbsquare.github.io/cricvega.github.io/match/1555412-kowloon-cricket-club-vs-pakistan-association-of-hong-kong-5th-match)
@@ -38,8 +36,10 @@ Website: https://plumbsquare.github.io/cricvega.github.io/ — free live cricket
 - [Tamil Nadu vs Uttarakhand, Elite — Preview](https://plumbsquare.github.io/cricvega.github.io/match/1546557-tamil-nadu-vs-uttarakhand-elite)
 - [Uttar Pradesh vs Goa, Elite — Preview](https://plumbsquare.github.io/cricvega.github.io/match/1546546-uttar-pradesh-vs-goa-elite)
 - [Sydney Sixers Women vs Melbourne Stars Women, 18th Match — Preview](https://plumbsquare.github.io/cricvega.github.io/match/1558406-sydney-sixers-women-vs-melbourne-stars-women-18th-match)
+- [Pakistan vs Sri Lanka, 1st Match — Preview](https://plumbsquare.github.io/cricvega.github.io/match/1550713-pakistan-vs-sri-lanka-1st-match)
 - [South Africa vs Australia, 2nd Test — Preview](https://plumbsquare.github.io/cricvega.github.io/match/1525660-south-africa-vs-australia-2nd-test)
 - [Australia Women vs New Zealand Women, 1st T20I — Preview](https://plumbsquare.github.io/cricvega.github.io/match/1528722-australia-women-vs-new-zealand-women-1st-t20i)
+- [India Women vs Zimbabwe Women, 2nd T20I — Preview](https://plumbsquare.github.io/cricvega.github.io/match/1535653-india-women-vs-zimbabwe-women-2nd-t20i)
 - [Tasmania vs Victoria, 4th Match — Preview](https://plumbsquare.github.io/cricvega.github.io/match/1544867-tasmania-vs-victoria-4th-match)
 - [South Australia vs Queensland, 5th Match — Preview](https://plumbsquare.github.io/cricvega.github.io/match/1544868-south-australia-vs-queensland-5th-match)
 - [Western Australia vs New South Wales, 6th Match — Preview](https://plumbsquare.github.io/cricvega.github.io/match/1544869-western-australia-vs-new-south-wales-6th-match)
@@ -49,6 +49,7 @@ Website: https://plumbsquare.github.io/cricvega.github.io/ — free live cricket
 
 ## Recent results
 
+- [Boland vs Mpumalanga, Pool A](https://plumbsquare.github.io/cricvega.github.io/match/1551872-boland-vs-mpumalanga-pool-b)
 - [Zimbabwe vs Bangladesh, 1st Match](https://plumbsquare.github.io/cricvega.github.io/match/1555117-bangladesh-vs-zimbabwe-1st-match)
 - [Romania Women vs Sweden Women, 6th Match](https://plumbsquare.github.io/cricvega.github.io/match/1558249-romania-women-vs-sweden-women-6th-match)
 - [Western Province Women vs Lions Women, 6th Match](https://plumbsquare.github.io/cricvega.github.io/match/1554094-lions-women-vs-western-province-women-6th-match)
@@ -68,13 +69,10 @@ Website: https://plumbsquare.github.io/cricvega.github.io/ — free live cricket
 - [Romania Women vs Bulgaria Women, 3rd Match](https://plumbsquare.github.io/cricvega.github.io/match/1558246-romania-women-vs-bulgaria-women-3rd-match)
 - [Sri Lanka Women Under-19s vs Bangladesh Women Under-19s, Final](https://plumbsquare.github.io/cricvega.github.io/match/1554716-tba-vs-tba-final)
 - [Australian Capital Territory Women vs Brisbane Heat Women, 10th Match](https://plumbsquare.github.io/cricvega.github.io/match/1558398-australian-capital-territory-women-vs-brisbane-heat-women-10th-match)
-- [Bulgaria Women vs Sweden Women, 2nd Match](https://plumbsquare.github.io/cricvega.github.io/match/1558245-bulgaria-women-vs-sweden-women-2nd-match)
 
 ## Series
 
-- [ICC Men's Cricket World Cup League 2](https://plumbsquare.github.io/cricvega.github.io/series/19439-icc-men-s-cricket-world-cup-league-2)
-- [President's Trophy](https://plumbsquare.github.io/cricvega.github.io/series/8836-president-s-trophy)
-- [Bangladesh Under-19s tour of Oman 2026/27](https://plumbsquare.github.io/cricvega.github.io/series/24831-bangladesh-under-19s-tour-of-oman-2026-27)
+- [Ranji Trophy](https://plumbsquare.github.io/cricvega.github.io/series/8050-ranji-trophy)
 - [ECA Women's European Cup](https://plumbsquare.github.io/cricvega.github.io/series/1558221-eca-women-s-european-cup)
 - [CSA Women Pro50 Series 2026/27](https://plumbsquare.github.io/cricvega.github.io/series/1554058-csa-women-pro50-series-2026-27)
 - [United Arab Emirates Tri-Nation Series](https://plumbsquare.github.io/cricvega.github.io/series/10931-united-arab-emirates-tri-nation-series)
@@ -82,15 +80,17 @@ Website: https://plumbsquare.github.io/cricvega.github.io/ — free live cricket
 - [South Africa Domestic T20/Pro20](https://plumbsquare.github.io/cricvega.github.io/series/8656-south-africa-domestic-t20-pro20)
 - [T20 Spring Challenge](https://plumbsquare.github.io/cricvega.github.io/series/22804-t20-spring-challenge)
 - [Hong Kong Premier League One-Day Tournament](https://plumbsquare.github.io/cricvega.github.io/series/19482-hong-kong-premier-league-one-day-tournament)
-- [New Zealand Women tour of Australia 2026/27](https://plumbsquare.github.io/cricvega.github.io/series/24268-new-zealand-women-tour-of-australia-2026-27)
-- [Australian Domestic One-Day Competition](https://plumbsquare.github.io/cricvega.github.io/series/8626-australian-domestic-one-day-competition)
-- [Sheffield Shield](https://plumbsquare.github.io/cricvega.github.io/series/8043-sheffield-shield)
-- [Ranji Trophy](https://plumbsquare.github.io/cricvega.github.io/series/8050-ranji-trophy)
 - [National Cricket League](https://plumbsquare.github.io/cricvega.github.io/series/8814-national-cricket-league)
+- [Pakistan ODI Tri-Series](https://plumbsquare.github.io/cricvega.github.io/series/1550706-pakistan-odi-tri-series)
+- [New Zealand Women tour of Australia 2026/27](https://plumbsquare.github.io/cricvega.github.io/series/24268-new-zealand-women-tour-of-australia-2026-27)
+- [Zimbabwe Women tour of India 2026/27](https://plumbsquare.github.io/cricvega.github.io/series/24371-zimbabwe-women-tour-of-india-2026-27)
+- [ICC Men's Cricket World Cup League 2](https://plumbsquare.github.io/cricvega.github.io/series/19439-icc-men-s-cricket-world-cup-league-2)
+- [President's Trophy](https://plumbsquare.github.io/cricvega.github.io/series/8836-president-s-trophy)
+- [Australian Domestic One-Day Competition](https://plumbsquare.github.io/cricvega.github.io/series/8626-australian-domestic-one-day-competition)
+- [Bangladesh Under-19s tour of Oman 2026/27](https://plumbsquare.github.io/cricvega.github.io/series/24831-bangladesh-under-19s-tour-of-oman-2026-27)
+- [Sheffield Shield](https://plumbsquare.github.io/cricvega.github.io/series/8043-sheffield-shield)
 - [Australia tour of South Africa 2026/27](https://plumbsquare.github.io/cricvega.github.io/series/24203-australia-tour-of-south-africa-2026-27)
 - [Pakistan Women's Under-19s T20 Tri-Series 2026/27](https://plumbsquare.github.io/cricvega.github.io/series/1554704-pakistan-women-s-under-19s-t20-tri-series-2026-27)
-- [Zimbabwe Women tour of India 2026/27](https://plumbsquare.github.io/cricvega.github.io/series/24371-zimbabwe-women-tour-of-india-2026-27)
-- [Pakistan ODI Tri-Series](https://plumbsquare.github.io/cricvega.github.io/series/1550706-pakistan-odi-tri-series)
 - [ICC Men's T20 World Cup Sub Regional Africa Qualifier Group C](https://plumbsquare.github.io/cricvega.github.io/series/23028-icc-men-s-t20-world-cup-sub-regional-africa-qualifier-group-c)
 - [ICC Men's T20 World Cup Sub Regional Asia Qualifier B](https://plumbsquare.github.io/cricvega.github.io/series/1554555-icc-men-s-t20-world-cup-sub-regional-asia-qualifier-b)
 - [ICC Men's T20 World Cup Sub Regional Asia Qualifier A](https://plumbsquare.github.io/cricvega.github.io/series/20451-icc-men-s-t20-world-cup-sub-regional-asia-qualifier-a)
